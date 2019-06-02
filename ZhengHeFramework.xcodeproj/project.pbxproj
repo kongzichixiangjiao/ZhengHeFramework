@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05056AC322A37E0A006F7A59 /* SDWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05056AC122A37E0A006F7A59 /* SDWViewController.swift */; };
-		05056AC422A37E0A006F7A59 /* SDWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05056AC222A37E0A006F7A59 /* SDWViewController.xib */; };
 		05056AC822A3820B006F7A59 /* GANormalizeScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05056AC622A3820B006F7A59 /* GANormalizeScanViewController.swift */; };
 		05056AC922A3820B006F7A59 /* GANormalizeScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05056AC722A3820B006F7A59 /* GANormalizeScanViewController.xib */; };
 		05056AFE22A3AB49006F7A59 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05056AFC22A3AB49006F7A59 /* UITableView+Extension.swift */; };
@@ -40,6 +38,27 @@
 		050FFA2222A3CA8400C19A67 /* GANormalizeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA1F22A3CA8400C19A67 /* GANormalizeTextView.swift */; };
 		050FFA2522A3CAF300C19A67 /* GATextViewAndTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA2322A3CAF300C19A67 /* GATextViewAndTextFieldViewController.swift */; };
 		050FFA2622A3CAF300C19A67 /* GATextViewAndTextFieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050FFA2422A3CAF300C19A67 /* GATextViewAndTextFieldViewController.xib */; };
+		050FFA5122A3E30200C19A67 /* AipBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 050FFA4B22A3E1D100C19A67 /* AipBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		050FFA5322A3E30200C19A67 /* AipOcrSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 050FFA4922A3E1D100C19A67 /* AipOcrSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		050FFA5522A3E30200C19A67 /* IdcardQuality.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 050FFA4A22A3E1D100C19A67 /* IdcardQuality.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		050FFA5C22A3E36500C19A67 /* AipBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050FFA5922A3E36400C19A67 /* AipBase.framework */; };
+		050FFA5D22A3E36500C19A67 /* AipOcrSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050FFA5A22A3E36400C19A67 /* AipOcrSdk.framework */; };
+		050FFA5E22A3E36500C19A67 /* IdcardQuality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050FFA5B22A3E36400C19A67 /* IdcardQuality.framework */; };
+		050FFA6522A3E42D00C19A67 /* SDWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA6322A3E42D00C19A67 /* SDWViewController.swift */; };
+		050FFA6622A3E42D00C19A67 /* SDWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050FFA6422A3E42D00C19A67 /* SDWViewController.xib */; };
+		050FFA6A22A3E48C00C19A67 /* YYCardIOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA6822A3E48C00C19A67 /* YYCardIOViewController.swift */; };
+		050FFA6B22A3E48C00C19A67 /* YYCardIOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050FFA6922A3E48C00C19A67 /* YYCardIOViewController.xib */; };
+		050FFA6E22A3EA7D00C19A67 /* GANormalizeCircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA6C22A3EA7D00C19A67 /* GANormalizeCircleViewController.swift */; };
+		050FFA6F22A3EA7D00C19A67 /* GANormalizeCircleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050FFA6D22A3EA7D00C19A67 /* GANormalizeCircleViewController.xib */; };
+		050FFA7422A3EACB00C19A67 /* YYReuseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA7122A3EACB00C19A67 /* YYReuseCollectionCell.swift */; };
+		050FFA7522A3EACB00C19A67 /* YYReuseCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050FFA7222A3EACB00C19A67 /* YYReuseCollectionCell.xib */; };
+		050FFA7622A3EACB00C19A67 /* YYReuseCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA7322A3EACB00C19A67 /* YYReuseCollectionView.swift */; };
+		050FFA7822A3EAE800C19A67 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA7722A3EAE800C19A67 /* UIColor+Extension.swift */; };
+		050FFA7C22A3EB1F00C19A67 /* GAPageControlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA7922A3EB1E00C19A67 /* GAPageControlCell.swift */; };
+		050FFA7D22A3EB1F00C19A67 /* GAPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA7A22A3EB1E00C19A67 /* GAPageControl.swift */; };
+		050FFA7E22A3EB1F00C19A67 /* GAPageControlCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050FFA7B22A3EB1F00C19A67 /* GAPageControlCell.xib */; };
+		050FFA8322A3ED1400C19A67 /* slide_img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 050FFA8122A3ED1400C19A67 /* slide_img2.jpg */; };
+		050FFA8422A3ED1400C19A67 /* slide_img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 050FFA8222A3ED1400C19A67 /* slide_img1.jpg */; };
 		D59B980022A3CF800053FD57 /* WWTestListVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B97FF22A3CF800053FD57 /* WWTestListVc.swift */; };
 		D59B980322A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B980222A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift */; };
 		D59B980A22A3D12E0053FD57 /* YYNewPaperConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B980622A3D12E0053FD57 /* YYNewPaperConfig.swift */; };
@@ -80,9 +99,23 @@
 		DC4D91072243339D0068AD05 /* PXTabbarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4D91062243339D0068AD05 /* PXTabbarView.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		050FFA5622A3E30200C19A67 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				050FFA5122A3E30200C19A67 /* AipBase.framework in Embed Frameworks */,
+				050FFA5322A3E30200C19A67 /* AipOcrSdk.framework in Embed Frameworks */,
+				050FFA5522A3E30200C19A67 /* IdcardQuality.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		05056AC122A37E0A006F7A59 /* SDWViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWViewController.swift; sourceTree = "<group>"; };
-		05056AC222A37E0A006F7A59 /* SDWViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SDWViewController.xib; sourceTree = "<group>"; };
 		05056AC622A3820B006F7A59 /* GANormalizeScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GANormalizeScanViewController.swift; sourceTree = "<group>"; };
 		05056AC722A3820B006F7A59 /* GANormalizeScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GANormalizeScanViewController.xib; sourceTree = "<group>"; };
 		05056AFC22A3AB49006F7A59 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
@@ -114,6 +147,27 @@
 		050FFA1F22A3CA8400C19A67 /* GANormalizeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GANormalizeTextView.swift; sourceTree = "<group>"; };
 		050FFA2322A3CAF300C19A67 /* GATextViewAndTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATextViewAndTextFieldViewController.swift; sourceTree = "<group>"; };
 		050FFA2422A3CAF300C19A67 /* GATextViewAndTextFieldViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GATextViewAndTextFieldViewController.xib; sourceTree = "<group>"; };
+		050FFA4922A3E1D100C19A67 /* AipOcrSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AipOcrSdk.framework; path = "/Users/puxin/Desktop/组件git/gitServer/ZhengHeFramework/ZhengHeFramework/ZhengHeFramework/Base/BaseThirdFramework/baiduLIb/AipOcrSdk.framework"; sourceTree = "<absolute>"; };
+		050FFA4A22A3E1D100C19A67 /* IdcardQuality.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IdcardQuality.framework; path = "/Users/puxin/Desktop/组件git/gitServer/ZhengHeFramework/ZhengHeFramework/ZhengHeFramework/Base/BaseThirdFramework/baiduLIb/IdcardQuality.framework"; sourceTree = "<absolute>"; };
+		050FFA4B22A3E1D100C19A67 /* AipBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AipBase.framework; path = "/Users/puxin/Desktop/组件git/gitServer/ZhengHeFramework/ZhengHeFramework/ZhengHeFramework/Base/BaseThirdFramework/baiduLIb/AipBase.framework"; sourceTree = "<absolute>"; };
+		050FFA5922A3E36400C19A67 /* AipBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AipBase.framework; sourceTree = "<group>"; };
+		050FFA5A22A3E36400C19A67 /* AipOcrSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AipOcrSdk.framework; sourceTree = "<group>"; };
+		050FFA5B22A3E36400C19A67 /* IdcardQuality.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IdcardQuality.framework; sourceTree = "<group>"; };
+		050FFA6322A3E42D00C19A67 /* SDWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDWViewController.swift; sourceTree = "<group>"; };
+		050FFA6422A3E42D00C19A67 /* SDWViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDWViewController.xib; sourceTree = "<group>"; };
+		050FFA6822A3E48C00C19A67 /* YYCardIOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YYCardIOViewController.swift; path = ../../../../YYFramework/YYFramework/FrameworkMVC/Test/VCS/CardIOVC/YYCardIOViewController.swift; sourceTree = "<group>"; };
+		050FFA6922A3E48C00C19A67 /* YYCardIOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YYCardIOViewController.xib; path = ../../../../YYFramework/YYFramework/FrameworkMVC/Test/VCS/CardIOVC/YYCardIOViewController.xib; sourceTree = "<group>"; };
+		050FFA6C22A3EA7D00C19A67 /* GANormalizeCircleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GANormalizeCircleViewController.swift; sourceTree = "<group>"; };
+		050FFA6D22A3EA7D00C19A67 /* GANormalizeCircleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GANormalizeCircleViewController.xib; sourceTree = "<group>"; };
+		050FFA7122A3EACB00C19A67 /* YYReuseCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYReuseCollectionCell.swift; sourceTree = "<group>"; };
+		050FFA7222A3EACB00C19A67 /* YYReuseCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYReuseCollectionCell.xib; sourceTree = "<group>"; };
+		050FFA7322A3EACB00C19A67 /* YYReuseCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYReuseCollectionView.swift; sourceTree = "<group>"; };
+		050FFA7722A3EAE800C19A67 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		050FFA7922A3EB1E00C19A67 /* GAPageControlCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAPageControlCell.swift; sourceTree = "<group>"; };
+		050FFA7A22A3EB1E00C19A67 /* GAPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAPageControl.swift; sourceTree = "<group>"; };
+		050FFA7B22A3EB1F00C19A67 /* GAPageControlCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GAPageControlCell.xib; sourceTree = "<group>"; };
+		050FFA8122A3ED1400C19A67 /* slide_img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_img2.jpg; sourceTree = "<group>"; };
+		050FFA8222A3ED1400C19A67 /* slide_img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_img1.jpg; sourceTree = "<group>"; };
 		D59B97FF22A3CF800053FD57 /* WWTestListVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWTestListVc.swift; sourceTree = "<group>"; };
 		D59B980222A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GANormailizeNewPaperViewController.swift; sourceTree = "<group>"; };
 		D59B980622A3D12E0053FD57 /* YYNewPaperConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYNewPaperConfig.swift; sourceTree = "<group>"; };
@@ -161,6 +215,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				050FFA5C22A3E36500C19A67 /* AipBase.framework in Frameworks */,
+				050FFA5D22A3E36500C19A67 /* AipOcrSdk.framework in Frameworks */,
+				050FFA5E22A3E36500C19A67 /* IdcardQuality.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +227,10 @@
 		05056ADC22A3833B006F7A59 /* sdwVCS */ = {
 			isa = PBXGroup;
 			children = (
+				050FFA8222A3ED1400C19A67 /* slide_img1.jpg */,
+				050FFA8122A3ED1400C19A67 /* slide_img2.jpg */,
+				050FFA6C22A3EA7D00C19A67 /* GANormalizeCircleViewController.swift */,
+				050FFA6D22A3EA7D00C19A67 /* GANormalizeCircleViewController.xib */,
 				05056AC622A3820B006F7A59 /* GANormalizeScanViewController.swift */,
 				05056AC722A3820B006F7A59 /* GANormalizeScanViewController.xib */,
 				05056B1F22A3B1EE006F7A59 /* GAMessageViewController.swift */,
@@ -178,6 +239,8 @@
 				050FFA1422A3C6B000C19A67 /* GAButtonViewController.xib */,
 				050FFA2322A3CAF300C19A67 /* GATextViewAndTextFieldViewController.swift */,
 				050FFA2422A3CAF300C19A67 /* GATextViewAndTextFieldViewController.xib */,
+				050FFA6822A3E48C00C19A67 /* YYCardIOViewController.swift */,
+				050FFA6922A3E48C00C19A67 /* YYCardIOViewController.xib */,
 			);
 			path = sdwVCS;
 			sourceTree = "<group>";
@@ -185,6 +248,7 @@
 		05056AFB22A3AB3C006F7A59 /* BaseExtension */ = {
 			isa = PBXGroup;
 			children = (
+				050FFA7722A3EAE800C19A67 /* UIColor+Extension.swift */,
 				D59B981022A3D1740053FD57 /* UICollectionView+Extension.swift */,
 				05056AFC22A3AB49006F7A59 /* UITableView+Extension.swift */,
 				05056AFD22A3AB49006F7A59 /* UITableViewCell+Extension.swift */,
@@ -247,6 +311,47 @@
 				050FFA1F22A3CA8400C19A67 /* GANormalizeTextView.swift */,
 			);
 			path = BaseTextView;
+			sourceTree = "<group>";
+		};
+		050FFA5722A3E36400C19A67 /* BaseThirdFramework */ = {
+			isa = PBXGroup;
+			children = (
+				050FFA5822A3E36400C19A67 /* baiduLIb */,
+			);
+			path = BaseThirdFramework;
+			sourceTree = "<group>";
+		};
+		050FFA5822A3E36400C19A67 /* baiduLIb */ = {
+			isa = PBXGroup;
+			children = (
+				050FFA5922A3E36400C19A67 /* AipBase.framework */,
+				050FFA5A22A3E36400C19A67 /* AipOcrSdk.framework */,
+				050FFA5B22A3E36400C19A67 /* IdcardQuality.framework */,
+			);
+			path = baiduLIb;
+			sourceTree = "<group>";
+		};
+		050FFA6722A3E44600C19A67 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				050FFA4B22A3E1D100C19A67 /* AipBase.framework */,
+				050FFA4922A3E1D100C19A67 /* AipOcrSdk.framework */,
+				050FFA4A22A3E1D100C19A67 /* IdcardQuality.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		050FFA7022A3EACB00C19A67 /* SlideImageShow */ = {
+			isa = PBXGroup;
+			children = (
+				050FFA7A22A3EB1E00C19A67 /* GAPageControl.swift */,
+				050FFA7922A3EB1E00C19A67 /* GAPageControlCell.swift */,
+				050FFA7B22A3EB1F00C19A67 /* GAPageControlCell.xib */,
+				050FFA7122A3EACB00C19A67 /* YYReuseCollectionCell.swift */,
+				050FFA7222A3EACB00C19A67 /* YYReuseCollectionCell.xib */,
+				050FFA7322A3EACB00C19A67 /* YYReuseCollectionView.swift */,
+			);
+			path = SlideImageShow;
 			sourceTree = "<group>";
 		};
 		D59B97FE22A3CF670053FD57 /* WW */ = {
@@ -313,6 +418,7 @@
 			children = (
 				DC4D90A922427E1E0068AD05 /* ZhengHeFramework */,
 				DC4D90A822427E1E0068AD05 /* Products */,
+				050FFA6722A3E44600C19A67 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -370,6 +476,7 @@
 		DC4D90E1224282880068AD05 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				050FFA5722A3E36400C19A67 /* BaseThirdFramework */,
 				D59B980422A3D1090053FD57 /* BaseFoundation */,
 				05056AFB22A3AB3C006F7A59 /* BaseExtension */,
 				DC4D90E2224282880068AD05 /* BaseView */,
@@ -381,6 +488,7 @@
 		DC4D90E2224282880068AD05 /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
+				050FFA7022A3EACB00C19A67 /* SlideImageShow */,
 				D59B980522A3D12E0053FD57 /* NewPaper */,
 				050FFA1C22A3CA8400C19A67 /* BaseTextView */,
 				050FFA1722A3C6DE00C19A67 /* Button */,
@@ -432,8 +540,8 @@
 				DC4D9102224325B80068AD05 /* PXTabbarViewController.swift */,
 				DC4D9104224333810068AD05 /* PXTabbarView.swift */,
 				DC4D91062243339D0068AD05 /* PXTabbarView.xib */,
-				05056AC122A37E0A006F7A59 /* SDWViewController.swift */,
-				05056AC222A37E0A006F7A59 /* SDWViewController.xib */,
+				050FFA6322A3E42D00C19A67 /* SDWViewController.swift */,
+				050FFA6422A3E42D00C19A67 /* SDWViewController.xib */,
 			);
 			path = PX;
 			sourceTree = "<group>";
@@ -448,6 +556,7 @@
 				DC4D90A322427E1E0068AD05 /* Sources */,
 				DC4D90A422427E1E0068AD05 /* Frameworks */,
 				DC4D90A522427E1E0068AD05 /* Resources */,
+				050FFA5622A3E30200C19A67 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -497,17 +606,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC4D90F7224282880068AD05 /* GANormalizeTabbarView.xib in Resources */,
+				050FFA6622A3E42D00C19A67 /* SDWViewController.xib in Resources */,
+				050FFA6B22A3E48C00C19A67 /* YYCardIOViewController.xib in Resources */,
+				050FFA8322A3ED1400C19A67 /* slide_img2.jpg in Resources */,
 				05056B2222A3B1EE006F7A59 /* GAMessageViewController.xib in Resources */,
 				05056B1A22A3B125006F7A59 /* YYADCellView.xib in Resources */,
 				D59B982822A3D3960053FD57 /* img_001.jpg in Resources */,
+				050FFA7522A3EACB00C19A67 /* YYReuseCollectionCell.xib in Resources */,
+				050FFA6F22A3EA7D00C19A67 /* GANormalizeCircleViewController.xib in Resources */,
 				DC4D90B522427E1F0068AD05 /* LaunchScreen.storyboard in Resources */,
 				DC4D90B222427E1F0068AD05 /* Assets.xcassets in Resources */,
+				050FFA8422A3ED1400C19A67 /* slide_img1.jpg in Resources */,
 				DC4D90F5224282880068AD05 /* GANormalizeNavigationView.xib in Resources */,
 				D59B981722A3D2350053FD57 /* GATagCollectionViewCell.xib in Resources */,
 				050FFA1622A3C6B000C19A67 /* GAButtonViewController.xib in Resources */,
 				D59B980B22A3D12E0053FD57 /* YYNewPaperCell.xib in Resources */,
+				050FFA7E22A3EB1F00C19A67 /* GAPageControlCell.xib in Resources */,
 				D59B982622A3D3960053FD57 /* img_003.jpg in Resources */,
-				05056AC422A37E0A006F7A59 /* SDWViewController.xib in Resources */,
 				05056AC922A3820B006F7A59 /* GANormalizeScanViewController.xib in Resources */,
 				DC4D91072243339D0068AD05 /* PXTabbarView.xib in Resources */,
 				05056B0A22A3AE0A006F7A59 /* CodeScan.bundle in Resources */,
@@ -524,15 +639,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				050FFA6E22A3EA7D00C19A67 /* GANormalizeCircleViewController.swift in Sources */,
 				DC4D90F1224282880068AD05 /* GANormalizeOther+Class.swift in Sources */,
 				D59B980A22A3D12E0053FD57 /* YYNewPaperConfig.swift in Sources */,
 				05056B1B22A3B125006F7A59 /* YYADViewModel.swift in Sources */,
+				050FFA6522A3E42D00C19A67 /* SDWViewController.swift in Sources */,
 				DC4D90F9224282880068AD05 /* YYXibTabBarItem.swift in Sources */,
+				050FFA7622A3EACB00C19A67 /* YYReuseCollectionView.swift in Sources */,
 				DC4D90F2224282880068AD05 /* GANormalizeOther+Enum.swift in Sources */,
 				D59B981B22A3D25B0053FD57 /* GATagFlowLayout.swift in Sources */,
 				DC4D9105224333810068AD05 /* PXTabbarView.swift in Sources */,
 				D59B980F22A3D15C0053FD57 /* YYCountDown.swift in Sources */,
 				DC4D90F4224282880068AD05 /* GANormalizeOther.swift in Sources */,
+				050FFA7D22A3EB1F00C19A67 /* GAPageControl.swift in Sources */,
 				D59B981422A3D1DA0053FD57 /* GATagCollectionViewController.swift in Sources */,
 				DC4D90FF224282880068AD05 /* GANormalizeBaseProtocol.swift in Sources */,
 				D59B980C22A3D12E0053FD57 /* YYNewPaperView.swift in Sources */,
@@ -540,11 +659,13 @@
 				05056B2422A3B2BF006F7A59 /* UIView+Extension.swift in Sources */,
 				DC4D90F3224282880068AD05 /* GANormalizeOther+Extension.swift in Sources */,
 				05056B0C22A3AE0A006F7A59 /* LBXScanLineAnimation.swift in Sources */,
+				050FFA7822A3EAE800C19A67 /* UIColor+Extension.swift in Sources */,
 				05056B2622A3B317006F7A59 /* NSObject+Extension.swift in Sources */,
 				05056B1922A3B125006F7A59 /* YYADCellView.swift in Sources */,
 				D59B981122A3D1740053FD57 /* UICollectionView+Extension.swift in Sources */,
 				05056B0B22A3AE0A006F7A59 /* LBXPermissions.swift in Sources */,
 				05056AFF22A3AB49006F7A59 /* UITableViewCell+Extension.swift in Sources */,
+				050FFA7C22A3EB1F00C19A67 /* GAPageControlCell.swift in Sources */,
 				DC4D90AD22427E1E0068AD05 /* ViewController.swift in Sources */,
 				D59B980022A3CF800053FD57 /* WWTestListVc.swift in Sources */,
 				05056B1C22A3B125006F7A59 /* YYADViewOther.swift in Sources */,
@@ -555,6 +676,7 @@
 				05056B1022A3AE0A006F7A59 /* LBXScanViewStyle.swift in Sources */,
 				DC4D90F8224282880068AD05 /* GANormalizeTabbarView.swift in Sources */,
 				050FFA2522A3CAF300C19A67 /* GATextViewAndTextFieldViewController.swift in Sources */,
+				050FFA6A22A3E48C00C19A67 /* YYCardIOViewController.swift in Sources */,
 				DC4D90FE224282880068AD05 /* GANormalizeBaseTableViewController.swift in Sources */,
 				D59B981822A3D2350053FD57 /* GATagCollectionViewCell.swift in Sources */,
 				050FFA1B22A3C6DE00C19A67 /* GANormalizeIconButton.swift in Sources */,
@@ -569,9 +691,9 @@
 				050FFA2022A3CA8400C19A67 /* GANormalizeTextEditProtocol.swift in Sources */,
 				05056B0F22A3AE0A006F7A59 /* LBXScanViewController.swift in Sources */,
 				DC4D90FA224282880068AD05 /* GANormalizeNavigationViewController.swift in Sources */,
+				050FFA7422A3EACB00C19A67 /* YYReuseCollectionCell.swift in Sources */,
 				05056B1122A3AE0A006F7A59 /* LBXScanWrapper.swift in Sources */,
 				D59B980322A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift in Sources */,
-				05056AC322A37E0A006F7A59 /* SDWViewController.swift in Sources */,
 				050FFA1522A3C6B000C19A67 /* GAButtonViewController.swift in Sources */,
 				DC4D90AB22427E1E0068AD05 /* AppDelegate.swift in Sources */,
 				050FFA1A22A3C6DE00C19A67 /* GANormalizeButton.swift in Sources */,
@@ -723,9 +845,14 @@
 		DC4D90BA22427E1F0068AD05 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGA4995V4J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZhengHeFramework/ZhengHeFramework/Base/BaseThirdFramework/baiduLIb",
+				);
 				INFOPLIST_FILE = ZhengHeFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -742,9 +869,14 @@
 		DC4D90BB22427E1F0068AD05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGA4995V4J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZhengHeFramework/ZhengHeFramework/Base/BaseThirdFramework/baiduLIb",
+				);
 				INFOPLIST_FILE = ZhengHeFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
