@@ -13,7 +13,7 @@
         <!--Item 2-->
         <scene sceneID="poP-vU-AYX">
             <objects>
-                <viewController id="zbM-LO-yY9" sceneMemberID="viewController">
+                <viewController id="zbM-LO-yY9" customClass="SDWViewController" customModule="ZhengHeFramework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Fq-sU-9X9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
