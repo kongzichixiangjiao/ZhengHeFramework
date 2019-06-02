@@ -29,7 +29,7 @@
         <!--Item 1-->
         <scene sceneID="uoI-o4-Q2W">
             <objects>
-                <viewController id="lsD-NQ-GUp" sceneMemberID="viewController">
+                <viewController id="lsD-NQ-GUp" customClass="WWTestListVc" customModule="ZhengHeFramework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h9L-vh-QbN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
