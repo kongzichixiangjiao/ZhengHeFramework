@@ -48,7 +48,11 @@ class SDWViewController: GANormalizeBaseTableViewController {
             
             self.navigationController?.pushViewController(GAMessageViewController(), animated: true)
 
-        }else if indexPath.row == 6 {
+        }else if indexPath.row == 3 {
+            
+            self.navigationController?.pushViewController(GATextViewAndTextFieldViewController(), animated: true)
+
+        } else if indexPath.row == 6 {
             
             self.navigationController?.pushViewController(GANormalizeScanViewController(), animated: true)
         }
