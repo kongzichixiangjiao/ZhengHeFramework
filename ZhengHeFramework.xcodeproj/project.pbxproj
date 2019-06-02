@@ -21,6 +21,25 @@
 		05056B0F22A3AE0A006F7A59 /* LBXScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05056B0722A3AE0A006F7A59 /* LBXScanViewController.swift */; };
 		05056B1022A3AE0A006F7A59 /* LBXScanViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05056B0822A3AE0A006F7A59 /* LBXScanViewStyle.swift */; };
 		05056B1122A3AE0A006F7A59 /* LBXScanWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05056B0922A3AE0A006F7A59 /* LBXScanWrapper.swift */; };
+		05056B1922A3B125006F7A59 /* YYADCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05056B1322A3B125006F7A59 /* YYADCellView.swift */; };
+		05056B1A22A3B125006F7A59 /* YYADCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05056B1422A3B125006F7A59 /* YYADCellView.xib */; };
+		05056B1B22A3B125006F7A59 /* YYADViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05056B1522A3B125006F7A59 /* YYADViewModel.swift */; };
+		05056B1C22A3B125006F7A59 /* YYADViewOther.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05056B1622A3B125006F7A59 /* YYADViewOther.swift */; };
+		05056B1D22A3B125006F7A59 /* YYScrollADView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05056B1722A3B125006F7A59 /* YYScrollADView.swift */; };
+		05056B1E22A3B125006F7A59 /* YYTableADView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05056B1822A3B125006F7A59 /* YYTableADView.swift */; };
+		05056B2122A3B1EE006F7A59 /* GAMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05056B1F22A3B1EE006F7A59 /* GAMessageViewController.swift */; };
+		05056B2222A3B1EE006F7A59 /* GAMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05056B2022A3B1EE006F7A59 /* GAMessageViewController.xib */; };
+		05056B2422A3B2BF006F7A59 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05056B2322A3B2BF006F7A59 /* UIView+Extension.swift */; };
+		05056B2622A3B317006F7A59 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05056B2522A3B316006F7A59 /* NSObject+Extension.swift */; };
+		050FFA1522A3C6B000C19A67 /* GAButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA1322A3C6B000C19A67 /* GAButtonViewController.swift */; };
+		050FFA1622A3C6B000C19A67 /* GAButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050FFA1422A3C6B000C19A67 /* GAButtonViewController.xib */; };
+		050FFA1A22A3C6DE00C19A67 /* GANormalizeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA1822A3C6DE00C19A67 /* GANormalizeButton.swift */; };
+		050FFA1B22A3C6DE00C19A67 /* GANormalizeIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA1922A3C6DE00C19A67 /* GANormalizeIconButton.swift */; };
+		050FFA2022A3CA8400C19A67 /* GANormalizeTextEditProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA1D22A3CA8400C19A67 /* GANormalizeTextEditProtocol.swift */; };
+		050FFA2122A3CA8400C19A67 /* GANormalizeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA1E22A3CA8400C19A67 /* GANormalizeTextField.swift */; };
+		050FFA2222A3CA8400C19A67 /* GANormalizeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA1F22A3CA8400C19A67 /* GANormalizeTextView.swift */; };
+		050FFA2522A3CAF300C19A67 /* GATextViewAndTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA2322A3CAF300C19A67 /* GATextViewAndTextFieldViewController.swift */; };
+		050FFA2622A3CAF300C19A67 /* GATextViewAndTextFieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050FFA2422A3CAF300C19A67 /* GATextViewAndTextFieldViewController.xib */; };
 		DC4D90AB22427E1E0068AD05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4D90AA22427E1E0068AD05 /* AppDelegate.swift */; };
 		DC4D90AD22427E1E0068AD05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4D90AC22427E1E0068AD05 /* ViewController.swift */; };
 		DC4D90B022427E1E0068AD05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4D90AE22427E1E0068AD05 /* Main.storyboard */; };
@@ -61,6 +80,25 @@
 		05056B0722A3AE0A006F7A59 /* LBXScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanViewController.swift; sourceTree = "<group>"; };
 		05056B0822A3AE0A006F7A59 /* LBXScanViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanViewStyle.swift; sourceTree = "<group>"; };
 		05056B0922A3AE0A006F7A59 /* LBXScanWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanWrapper.swift; sourceTree = "<group>"; };
+		05056B1322A3B125006F7A59 /* YYADCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYADCellView.swift; sourceTree = "<group>"; };
+		05056B1422A3B125006F7A59 /* YYADCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYADCellView.xib; sourceTree = "<group>"; };
+		05056B1522A3B125006F7A59 /* YYADViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYADViewModel.swift; sourceTree = "<group>"; };
+		05056B1622A3B125006F7A59 /* YYADViewOther.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYADViewOther.swift; sourceTree = "<group>"; };
+		05056B1722A3B125006F7A59 /* YYScrollADView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYScrollADView.swift; sourceTree = "<group>"; };
+		05056B1822A3B125006F7A59 /* YYTableADView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTableADView.swift; sourceTree = "<group>"; };
+		05056B1F22A3B1EE006F7A59 /* GAMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAMessageViewController.swift; sourceTree = "<group>"; };
+		05056B2022A3B1EE006F7A59 /* GAMessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GAMessageViewController.xib; sourceTree = "<group>"; };
+		05056B2322A3B2BF006F7A59 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		05056B2522A3B316006F7A59 /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		050FFA1322A3C6B000C19A67 /* GAButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAButtonViewController.swift; sourceTree = "<group>"; };
+		050FFA1422A3C6B000C19A67 /* GAButtonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GAButtonViewController.xib; sourceTree = "<group>"; };
+		050FFA1822A3C6DE00C19A67 /* GANormalizeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GANormalizeButton.swift; sourceTree = "<group>"; };
+		050FFA1922A3C6DE00C19A67 /* GANormalizeIconButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GANormalizeIconButton.swift; sourceTree = "<group>"; };
+		050FFA1D22A3CA8400C19A67 /* GANormalizeTextEditProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GANormalizeTextEditProtocol.swift; sourceTree = "<group>"; };
+		050FFA1E22A3CA8400C19A67 /* GANormalizeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GANormalizeTextField.swift; sourceTree = "<group>"; };
+		050FFA1F22A3CA8400C19A67 /* GANormalizeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GANormalizeTextView.swift; sourceTree = "<group>"; };
+		050FFA2322A3CAF300C19A67 /* GATextViewAndTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATextViewAndTextFieldViewController.swift; sourceTree = "<group>"; };
+		050FFA2422A3CAF300C19A67 /* GATextViewAndTextFieldViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GATextViewAndTextFieldViewController.xib; sourceTree = "<group>"; };
 		DC4D90A722427E1E0068AD05 /* ZhengHeFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhengHeFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4D90AA22427E1E0068AD05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC4D90AC22427E1E0068AD05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +142,12 @@
 			children = (
 				05056AC622A3820B006F7A59 /* GANormalizeScanViewController.swift */,
 				05056AC722A3820B006F7A59 /* GANormalizeScanViewController.xib */,
+				05056B1F22A3B1EE006F7A59 /* GAMessageViewController.swift */,
+				05056B2022A3B1EE006F7A59 /* GAMessageViewController.xib */,
+				050FFA1322A3C6B000C19A67 /* GAButtonViewController.swift */,
+				050FFA1422A3C6B000C19A67 /* GAButtonViewController.xib */,
+				050FFA2322A3CAF300C19A67 /* GATextViewAndTextFieldViewController.swift */,
+				050FFA2422A3CAF300C19A67 /* GATextViewAndTextFieldViewController.xib */,
 			);
 			path = sdwVCS;
 			sourceTree = "<group>";
@@ -113,6 +157,8 @@
 			children = (
 				05056AFC22A3AB49006F7A59 /* UITableView+Extension.swift */,
 				05056AFD22A3AB49006F7A59 /* UITableViewCell+Extension.swift */,
+				05056B2322A3B2BF006F7A59 /* UIView+Extension.swift */,
+				05056B2522A3B316006F7A59 /* NSObject+Extension.swift */,
 			);
 			path = BaseExtension;
 			sourceTree = "<group>";
@@ -138,6 +184,38 @@
 				05056B0922A3AE0A006F7A59 /* LBXScanWrapper.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		05056B1222A3B125006F7A59 /* ADView */ = {
+			isa = PBXGroup;
+			children = (
+				05056B1322A3B125006F7A59 /* YYADCellView.swift */,
+				05056B1422A3B125006F7A59 /* YYADCellView.xib */,
+				05056B1522A3B125006F7A59 /* YYADViewModel.swift */,
+				05056B1622A3B125006F7A59 /* YYADViewOther.swift */,
+				05056B1722A3B125006F7A59 /* YYScrollADView.swift */,
+				05056B1822A3B125006F7A59 /* YYTableADView.swift */,
+			);
+			path = ADView;
+			sourceTree = "<group>";
+		};
+		050FFA1722A3C6DE00C19A67 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				050FFA1822A3C6DE00C19A67 /* GANormalizeButton.swift */,
+				050FFA1922A3C6DE00C19A67 /* GANormalizeIconButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		050FFA1C22A3CA8400C19A67 /* BaseTextView */ = {
+			isa = PBXGroup;
+			children = (
+				050FFA1D22A3CA8400C19A67 /* GANormalizeTextEditProtocol.swift */,
+				050FFA1E22A3CA8400C19A67 /* GANormalizeTextField.swift */,
+				050FFA1F22A3CA8400C19A67 /* GANormalizeTextView.swift */,
+			);
+			path = BaseTextView;
 			sourceTree = "<group>";
 		};
 		DC4D909E22427E1E0068AD05 = {
@@ -212,6 +290,9 @@
 		DC4D90E2224282880068AD05 /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
+				050FFA1C22A3CA8400C19A67 /* BaseTextView */,
+				050FFA1722A3C6DE00C19A67 /* Button */,
+				05056B1222A3B125006F7A59 /* ADView */,
 				05056B0022A3AE0A006F7A59 /* swiftScan */,
 				DC4D90E3224282880068AD05 /* NavigationView */,
 				DC4D90E6224282880068AD05 /* TabbarView */,
@@ -323,13 +404,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC4D90F7224282880068AD05 /* GANormalizeTabbarView.xib in Resources */,
+				05056B2222A3B1EE006F7A59 /* GAMessageViewController.xib in Resources */,
+				05056B1A22A3B125006F7A59 /* YYADCellView.xib in Resources */,
 				DC4D90B522427E1F0068AD05 /* LaunchScreen.storyboard in Resources */,
 				DC4D90B222427E1F0068AD05 /* Assets.xcassets in Resources */,
 				DC4D90F5224282880068AD05 /* GANormalizeNavigationView.xib in Resources */,
+				050FFA1622A3C6B000C19A67 /* GAButtonViewController.xib in Resources */,
 				05056AC422A37E0A006F7A59 /* SDWViewController.xib in Resources */,
 				05056AC922A3820B006F7A59 /* GANormalizeScanViewController.xib in Resources */,
 				DC4D91072243339D0068AD05 /* PXTabbarView.xib in Resources */,
 				05056B0A22A3AE0A006F7A59 /* CodeScan.bundle in Resources */,
+				050FFA2622A3CAF300C19A67 /* GATextViewAndTextFieldViewController.xib in Resources */,
 				DC4D90B022427E1E0068AD05 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,31 +427,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC4D90F1224282880068AD05 /* GANormalizeOther+Class.swift in Sources */,
+				05056B1B22A3B125006F7A59 /* YYADViewModel.swift in Sources */,
 				DC4D90F9224282880068AD05 /* YYXibTabBarItem.swift in Sources */,
 				DC4D90F2224282880068AD05 /* GANormalizeOther+Enum.swift in Sources */,
 				DC4D9105224333810068AD05 /* PXTabbarView.swift in Sources */,
 				DC4D90F4224282880068AD05 /* GANormalizeOther.swift in Sources */,
 				DC4D90FF224282880068AD05 /* GANormalizeBaseProtocol.swift in Sources */,
 				05056B0E22A3AE0A006F7A59 /* LBXScanView.swift in Sources */,
+				05056B2422A3B2BF006F7A59 /* UIView+Extension.swift in Sources */,
 				DC4D90F3224282880068AD05 /* GANormalizeOther+Extension.swift in Sources */,
 				05056B0C22A3AE0A006F7A59 /* LBXScanLineAnimation.swift in Sources */,
+				05056B2622A3B317006F7A59 /* NSObject+Extension.swift in Sources */,
+				05056B1922A3B125006F7A59 /* YYADCellView.swift in Sources */,
 				05056B0B22A3AE0A006F7A59 /* LBXPermissions.swift in Sources */,
 				05056AFF22A3AB49006F7A59 /* UITableViewCell+Extension.swift in Sources */,
 				DC4D90AD22427E1E0068AD05 /* ViewController.swift in Sources */,
+				05056B1C22A3B125006F7A59 /* YYADViewOther.swift in Sources */,
+				050FFA2222A3CA8400C19A67 /* GANormalizeTextView.swift in Sources */,
 				DC4D90F6224282880068AD05 /* GANormalizeNavigationView.swift in Sources */,
+				05056B1D22A3B125006F7A59 /* YYScrollADView.swift in Sources */,
 				05056AFE22A3AB49006F7A59 /* UITableView+Extension.swift in Sources */,
 				05056B1022A3AE0A006F7A59 /* LBXScanViewStyle.swift in Sources */,
 				DC4D90F8224282880068AD05 /* GANormalizeTabbarView.swift in Sources */,
+				050FFA2522A3CAF300C19A67 /* GATextViewAndTextFieldViewController.swift in Sources */,
 				DC4D90FE224282880068AD05 /* GANormalizeBaseTableViewController.swift in Sources */,
+				050FFA1B22A3C6DE00C19A67 /* GANormalizeIconButton.swift in Sources */,
+				050FFA2122A3CA8400C19A67 /* GANormalizeTextField.swift in Sources */,
 				DC4D9103224325B80068AD05 /* PXTabbarViewController.swift in Sources */,
+				05056B2122A3B1EE006F7A59 /* GAMessageViewController.swift in Sources */,
 				DC4D90FC224282880068AD05 /* GANormalizeTabBarViewController.swift in Sources */,
+				05056B1E22A3B125006F7A59 /* YYTableADView.swift in Sources */,
 				DC4D90FB224282880068AD05 /* GANormalizeBaseViewController.swift in Sources */,
 				05056AC822A3820B006F7A59 /* GANormalizeScanViewController.swift in Sources */,
+				050FFA2022A3CA8400C19A67 /* GANormalizeTextEditProtocol.swift in Sources */,
 				05056B0F22A3AE0A006F7A59 /* LBXScanViewController.swift in Sources */,
 				DC4D90FA224282880068AD05 /* GANormalizeNavigationViewController.swift in Sources */,
 				05056B1122A3AE0A006F7A59 /* LBXScanWrapper.swift in Sources */,
 				05056AC322A37E0A006F7A59 /* SDWViewController.swift in Sources */,
+				050FFA1522A3C6B000C19A67 /* GAButtonViewController.swift in Sources */,
 				DC4D90AB22427E1E0068AD05 /* AppDelegate.swift in Sources */,
+				050FFA1A22A3C6DE00C19A67 /* GANormalizeButton.swift in Sources */,
 				05056B0D22A3AE0A006F7A59 /* LBXScanNetAnimation.swift in Sources */,
 				DC4D90FD224282880068AD05 /* GANormalizeBaseCollectionViewController.swift in Sources */,
 			);

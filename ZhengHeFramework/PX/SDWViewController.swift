@@ -40,8 +40,16 @@ class SDWViewController: GANormalizeBaseTableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        
-        if indexPath.row == 6 {
+        if indexPath.row == 0 {
+            
+            self.navigationController?.pushViewController(GAButtonViewController(), animated: true)
+
+        }else if indexPath.row == 1{
+            
+            self.navigationController?.pushViewController(GAMessageViewController(), animated: true)
+
+        }else if indexPath.row == 6 {
+            
             self.navigationController?.pushViewController(GANormalizeScanViewController(), animated: true)
         }
         
