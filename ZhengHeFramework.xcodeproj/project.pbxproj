@@ -40,6 +40,21 @@
 		050FFA2222A3CA8400C19A67 /* GANormalizeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA1F22A3CA8400C19A67 /* GANormalizeTextView.swift */; };
 		050FFA2522A3CAF300C19A67 /* GATextViewAndTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FFA2322A3CAF300C19A67 /* GATextViewAndTextFieldViewController.swift */; };
 		050FFA2622A3CAF300C19A67 /* GATextViewAndTextFieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050FFA2422A3CAF300C19A67 /* GATextViewAndTextFieldViewController.xib */; };
+		D59B980022A3CF800053FD57 /* WWTestListVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B97FF22A3CF800053FD57 /* WWTestListVc.swift */; };
+		D59B980322A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B980222A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift */; };
+		D59B980A22A3D12E0053FD57 /* YYNewPaperConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B980622A3D12E0053FD57 /* YYNewPaperConfig.swift */; };
+		D59B980B22A3D12E0053FD57 /* YYNewPaperCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59B980722A3D12E0053FD57 /* YYNewPaperCell.xib */; };
+		D59B980C22A3D12E0053FD57 /* YYNewPaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B980822A3D12E0053FD57 /* YYNewPaperView.swift */; };
+		D59B980D22A3D12E0053FD57 /* YYNewPaperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B980922A3D12E0053FD57 /* YYNewPaperCell.swift */; };
+		D59B980F22A3D15C0053FD57 /* YYCountDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B980E22A3D15B0053FD57 /* YYCountDown.swift */; };
+		D59B981122A3D1740053FD57 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B981022A3D1740053FD57 /* UICollectionView+Extension.swift */; };
+		D59B981422A3D1DA0053FD57 /* GATagCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B981322A3D1DA0053FD57 /* GATagCollectionViewController.swift */; };
+		D59B981722A3D2350053FD57 /* GATagCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59B981522A3D2350053FD57 /* GATagCollectionViewCell.xib */; };
+		D59B981822A3D2350053FD57 /* GATagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B981622A3D2350053FD57 /* GATagCollectionViewCell.swift */; };
+		D59B981B22A3D25B0053FD57 /* GATagFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B981A22A3D25B0053FD57 /* GATagFlowLayout.swift */; };
+		D59B982622A3D3960053FD57 /* img_003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D59B982322A3D3960053FD57 /* img_003.jpg */; };
+		D59B982722A3D3960053FD57 /* img_002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D59B982422A3D3960053FD57 /* img_002.jpg */; };
+		D59B982822A3D3960053FD57 /* img_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D59B982522A3D3960053FD57 /* img_001.jpg */; };
 		DC4D90AB22427E1E0068AD05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4D90AA22427E1E0068AD05 /* AppDelegate.swift */; };
 		DC4D90AD22427E1E0068AD05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4D90AC22427E1E0068AD05 /* ViewController.swift */; };
 		DC4D90B022427E1E0068AD05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4D90AE22427E1E0068AD05 /* Main.storyboard */; };
@@ -99,6 +114,21 @@
 		050FFA1F22A3CA8400C19A67 /* GANormalizeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GANormalizeTextView.swift; sourceTree = "<group>"; };
 		050FFA2322A3CAF300C19A67 /* GATextViewAndTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATextViewAndTextFieldViewController.swift; sourceTree = "<group>"; };
 		050FFA2422A3CAF300C19A67 /* GATextViewAndTextFieldViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GATextViewAndTextFieldViewController.xib; sourceTree = "<group>"; };
+		D59B97FF22A3CF800053FD57 /* WWTestListVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWTestListVc.swift; sourceTree = "<group>"; };
+		D59B980222A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GANormailizeNewPaperViewController.swift; sourceTree = "<group>"; };
+		D59B980622A3D12E0053FD57 /* YYNewPaperConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYNewPaperConfig.swift; sourceTree = "<group>"; };
+		D59B980722A3D12E0053FD57 /* YYNewPaperCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYNewPaperCell.xib; sourceTree = "<group>"; };
+		D59B980822A3D12E0053FD57 /* YYNewPaperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYNewPaperView.swift; sourceTree = "<group>"; };
+		D59B980922A3D12E0053FD57 /* YYNewPaperCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYNewPaperCell.swift; sourceTree = "<group>"; };
+		D59B980E22A3D15B0053FD57 /* YYCountDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYCountDown.swift; sourceTree = "<group>"; };
+		D59B981022A3D1740053FD57 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		D59B981322A3D1DA0053FD57 /* GATagCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GATagCollectionViewController.swift; sourceTree = "<group>"; };
+		D59B981522A3D2350053FD57 /* GATagCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GATagCollectionViewCell.xib; sourceTree = "<group>"; };
+		D59B981622A3D2350053FD57 /* GATagCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GATagCollectionViewCell.swift; sourceTree = "<group>"; };
+		D59B981A22A3D25B0053FD57 /* GATagFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GATagFlowLayout.swift; sourceTree = "<group>"; };
+		D59B982322A3D3960053FD57 /* img_003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_003.jpg; sourceTree = "<group>"; };
+		D59B982422A3D3960053FD57 /* img_002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_002.jpg; sourceTree = "<group>"; };
+		D59B982522A3D3960053FD57 /* img_001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_001.jpg; sourceTree = "<group>"; };
 		DC4D90A722427E1E0068AD05 /* ZhengHeFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhengHeFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4D90AA22427E1E0068AD05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC4D90AC22427E1E0068AD05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +185,7 @@
 		05056AFB22A3AB3C006F7A59 /* BaseExtension */ = {
 			isa = PBXGroup;
 			children = (
+				D59B981022A3D1740053FD57 /* UICollectionView+Extension.swift */,
 				05056AFC22A3AB49006F7A59 /* UITableView+Extension.swift */,
 				05056AFD22A3AB49006F7A59 /* UITableViewCell+Extension.swift */,
 				05056B2322A3B2BF006F7A59 /* UIView+Extension.swift */,
@@ -216,6 +247,65 @@
 				050FFA1F22A3CA8400C19A67 /* GANormalizeTextView.swift */,
 			);
 			path = BaseTextView;
+			sourceTree = "<group>";
+		};
+		D59B97FE22A3CF670053FD57 /* WW */ = {
+			isa = PBXGroup;
+			children = (
+				D59B981222A3D1DA0053FD57 /* SearchRecordList */,
+				D59B980122A3D0BF0053FD57 /* NewPaper */,
+				D59B97FF22A3CF800053FD57 /* WWTestListVc.swift */,
+			);
+			path = WW;
+			sourceTree = "<group>";
+		};
+		D59B980122A3D0BF0053FD57 /* NewPaper */ = {
+			isa = PBXGroup;
+			children = (
+				D59B982522A3D3960053FD57 /* img_001.jpg */,
+				D59B982422A3D3960053FD57 /* img_002.jpg */,
+				D59B982322A3D3960053FD57 /* img_003.jpg */,
+				D59B980222A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift */,
+			);
+			path = NewPaper;
+			sourceTree = "<group>";
+		};
+		D59B980422A3D1090053FD57 /* BaseFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				D59B981922A3D25B0053FD57 /* GATagFlowLayout */,
+				D59B980E22A3D15B0053FD57 /* YYCountDown.swift */,
+			);
+			path = BaseFoundation;
+			sourceTree = "<group>";
+		};
+		D59B980522A3D12E0053FD57 /* NewPaper */ = {
+			isa = PBXGroup;
+			children = (
+				D59B980622A3D12E0053FD57 /* YYNewPaperConfig.swift */,
+				D59B980722A3D12E0053FD57 /* YYNewPaperCell.xib */,
+				D59B980822A3D12E0053FD57 /* YYNewPaperView.swift */,
+				D59B980922A3D12E0053FD57 /* YYNewPaperCell.swift */,
+			);
+			path = NewPaper;
+			sourceTree = "<group>";
+		};
+		D59B981222A3D1DA0053FD57 /* SearchRecordList */ = {
+			isa = PBXGroup;
+			children = (
+				D59B981622A3D2350053FD57 /* GATagCollectionViewCell.swift */,
+				D59B981522A3D2350053FD57 /* GATagCollectionViewCell.xib */,
+				D59B981322A3D1DA0053FD57 /* GATagCollectionViewController.swift */,
+			);
+			path = SearchRecordList;
+			sourceTree = "<group>";
+		};
+		D59B981922A3D25B0053FD57 /* GATagFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D59B981A22A3D25B0053FD57 /* GATagFlowLayout.swift */,
+			);
+			path = GATagFlowLayout;
 			sourceTree = "<group>";
 		};
 		DC4D909E22427E1E0068AD05 = {
@@ -280,6 +370,7 @@
 		DC4D90E1224282880068AD05 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				D59B980422A3D1090053FD57 /* BaseFoundation */,
 				05056AFB22A3AB3C006F7A59 /* BaseExtension */,
 				DC4D90E2224282880068AD05 /* BaseView */,
 				DC4D90EA224282880068AD05 /* BaseVC */,
@@ -290,6 +381,7 @@
 		DC4D90E2224282880068AD05 /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
+				D59B980522A3D12E0053FD57 /* NewPaper */,
 				050FFA1C22A3CA8400C19A67 /* BaseTextView */,
 				050FFA1722A3C6DE00C19A67 /* Button */,
 				05056B1222A3B125006F7A59 /* ADView */,
@@ -335,6 +427,7 @@
 		DC4D9100224325810068AD05 /* PX */ = {
 			isa = PBXGroup;
 			children = (
+				D59B97FE22A3CF670053FD57 /* WW */,
 				05056ADC22A3833B006F7A59 /* sdwVCS */,
 				DC4D9102224325B80068AD05 /* PXTabbarViewController.swift */,
 				DC4D9104224333810068AD05 /* PXTabbarView.swift */,
@@ -406,16 +499,21 @@
 				DC4D90F7224282880068AD05 /* GANormalizeTabbarView.xib in Resources */,
 				05056B2222A3B1EE006F7A59 /* GAMessageViewController.xib in Resources */,
 				05056B1A22A3B125006F7A59 /* YYADCellView.xib in Resources */,
+				D59B982822A3D3960053FD57 /* img_001.jpg in Resources */,
 				DC4D90B522427E1F0068AD05 /* LaunchScreen.storyboard in Resources */,
 				DC4D90B222427E1F0068AD05 /* Assets.xcassets in Resources */,
 				DC4D90F5224282880068AD05 /* GANormalizeNavigationView.xib in Resources */,
+				D59B981722A3D2350053FD57 /* GATagCollectionViewCell.xib in Resources */,
 				050FFA1622A3C6B000C19A67 /* GAButtonViewController.xib in Resources */,
+				D59B980B22A3D12E0053FD57 /* YYNewPaperCell.xib in Resources */,
+				D59B982622A3D3960053FD57 /* img_003.jpg in Resources */,
 				05056AC422A37E0A006F7A59 /* SDWViewController.xib in Resources */,
 				05056AC922A3820B006F7A59 /* GANormalizeScanViewController.xib in Resources */,
 				DC4D91072243339D0068AD05 /* PXTabbarView.xib in Resources */,
 				05056B0A22A3AE0A006F7A59 /* CodeScan.bundle in Resources */,
 				050FFA2622A3CAF300C19A67 /* GATextViewAndTextFieldViewController.xib in Resources */,
 				DC4D90B022427E1E0068AD05 /* Main.storyboard in Resources */,
+				D59B982722A3D3960053FD57 /* img_002.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,21 +525,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC4D90F1224282880068AD05 /* GANormalizeOther+Class.swift in Sources */,
+				D59B980A22A3D12E0053FD57 /* YYNewPaperConfig.swift in Sources */,
 				05056B1B22A3B125006F7A59 /* YYADViewModel.swift in Sources */,
 				DC4D90F9224282880068AD05 /* YYXibTabBarItem.swift in Sources */,
 				DC4D90F2224282880068AD05 /* GANormalizeOther+Enum.swift in Sources */,
+				D59B981B22A3D25B0053FD57 /* GATagFlowLayout.swift in Sources */,
 				DC4D9105224333810068AD05 /* PXTabbarView.swift in Sources */,
+				D59B980F22A3D15C0053FD57 /* YYCountDown.swift in Sources */,
 				DC4D90F4224282880068AD05 /* GANormalizeOther.swift in Sources */,
+				D59B981422A3D1DA0053FD57 /* GATagCollectionViewController.swift in Sources */,
 				DC4D90FF224282880068AD05 /* GANormalizeBaseProtocol.swift in Sources */,
+				D59B980C22A3D12E0053FD57 /* YYNewPaperView.swift in Sources */,
 				05056B0E22A3AE0A006F7A59 /* LBXScanView.swift in Sources */,
 				05056B2422A3B2BF006F7A59 /* UIView+Extension.swift in Sources */,
 				DC4D90F3224282880068AD05 /* GANormalizeOther+Extension.swift in Sources */,
 				05056B0C22A3AE0A006F7A59 /* LBXScanLineAnimation.swift in Sources */,
 				05056B2622A3B317006F7A59 /* NSObject+Extension.swift in Sources */,
 				05056B1922A3B125006F7A59 /* YYADCellView.swift in Sources */,
+				D59B981122A3D1740053FD57 /* UICollectionView+Extension.swift in Sources */,
 				05056B0B22A3AE0A006F7A59 /* LBXPermissions.swift in Sources */,
 				05056AFF22A3AB49006F7A59 /* UITableViewCell+Extension.swift in Sources */,
 				DC4D90AD22427E1E0068AD05 /* ViewController.swift in Sources */,
+				D59B980022A3CF800053FD57 /* WWTestListVc.swift in Sources */,
 				05056B1C22A3B125006F7A59 /* YYADViewOther.swift in Sources */,
 				050FFA2222A3CA8400C19A67 /* GANormalizeTextView.swift in Sources */,
 				DC4D90F6224282880068AD05 /* GANormalizeNavigationView.swift in Sources */,
@@ -451,6 +556,7 @@
 				DC4D90F8224282880068AD05 /* GANormalizeTabbarView.swift in Sources */,
 				050FFA2522A3CAF300C19A67 /* GATextViewAndTextFieldViewController.swift in Sources */,
 				DC4D90FE224282880068AD05 /* GANormalizeBaseTableViewController.swift in Sources */,
+				D59B981822A3D2350053FD57 /* GATagCollectionViewCell.swift in Sources */,
 				050FFA1B22A3C6DE00C19A67 /* GANormalizeIconButton.swift in Sources */,
 				050FFA2122A3CA8400C19A67 /* GANormalizeTextField.swift in Sources */,
 				DC4D9103224325B80068AD05 /* PXTabbarViewController.swift in Sources */,
@@ -458,11 +564,13 @@
 				DC4D90FC224282880068AD05 /* GANormalizeTabBarViewController.swift in Sources */,
 				05056B1E22A3B125006F7A59 /* YYTableADView.swift in Sources */,
 				DC4D90FB224282880068AD05 /* GANormalizeBaseViewController.swift in Sources */,
+				D59B980D22A3D12E0053FD57 /* YYNewPaperCell.swift in Sources */,
 				05056AC822A3820B006F7A59 /* GANormalizeScanViewController.swift in Sources */,
 				050FFA2022A3CA8400C19A67 /* GANormalizeTextEditProtocol.swift in Sources */,
 				05056B0F22A3AE0A006F7A59 /* LBXScanViewController.swift in Sources */,
 				DC4D90FA224282880068AD05 /* GANormalizeNavigationViewController.swift in Sources */,
 				05056B1122A3AE0A006F7A59 /* LBXScanWrapper.swift in Sources */,
+				D59B980322A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift in Sources */,
 				05056AC322A37E0A006F7A59 /* SDWViewController.swift in Sources */,
 				050FFA1522A3C6B000C19A67 /* GAButtonViewController.swift in Sources */,
 				DC4D90AB22427E1E0068AD05 /* AppDelegate.swift in Sources */,
