@@ -39,6 +39,11 @@ let kSeptalLine_2_LevelColor = GANormalizeColor.kSeptalLine_2_LevelColorString.n
 // 线条：空界面按钮描边
 let kSeptalLine_3_LevelColor = GANormalizeColor.kSeptalLine_3_LevelColorString.normalize_color0X
 
+//collectionview背景颜色（奶白）
+let kCollectionBgColor = GANormalizeColor.kCollectionBgColorString.normalize_color0X
+
+
+
 // MARK: 字体颜色
 // level越大 颜色越深
 let kFont_1_c_LevelColor = GANormalizeColor.kFont_1_c_LevelColorString.normalize_color0X

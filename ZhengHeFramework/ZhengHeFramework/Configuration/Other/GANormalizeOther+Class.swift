@@ -48,6 +48,8 @@ open class GANormalizeColor {
     static let kSeptalLine_2_LevelColorString = "cccccc"
     // 线条：空界面按钮描边
     static let kSeptalLine_3_LevelColorString = "666666"
+    //collectionview背景颜色（奶白）
+    static let kCollectionBgColorString = "F5F7FB"
     
     // MARK: 字体颜色
     // level越大 颜色越深

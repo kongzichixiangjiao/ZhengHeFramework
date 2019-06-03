@@ -59,6 +59,13 @@
 		050FFA7E22A3EB1F00C19A67 /* GAPageControlCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050FFA7B22A3EB1F00C19A67 /* GAPageControlCell.xib */; };
 		050FFA8322A3ED1400C19A67 /* slide_img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 050FFA8122A3ED1400C19A67 /* slide_img2.jpg */; };
 		050FFA8422A3ED1400C19A67 /* slide_img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 050FFA8222A3ED1400C19A67 /* slide_img1.jpg */; };
+		05132CEB22A4B64000A5D9F3 /* GANormalizeBaseMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05132CEA22A4B64000A5D9F3 /* GANormalizeBaseMenuViewController.swift */; };
+		05132CF422A4B83F00A5D9F3 /* PXTestMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05132CF322A4B83F00A5D9F3 /* PXTestMenuViewController.swift */; };
+		05132D0022A4BBAD00A5D9F3 /* BaseMenuHeaderTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05132CFD22A4BBAD00A5D9F3 /* BaseMenuHeaderTitleView.swift */; };
+		05132D0122A4BBAD00A5D9F3 /* BaseMenuHeaderTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05132CFE22A4BBAD00A5D9F3 /* BaseMenuHeaderTitleView.xib */; };
+		05132D0222A4BBAD00A5D9F3 /* ZHMenuBarMoreLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05132CFF22A4BBAD00A5D9F3 /* ZHMenuBarMoreLineView.swift */; };
+		05132D0522A4C01F00A5D9F3 /* ZHMenuScrollItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05132D0322A4C01F00A5D9F3 /* ZHMenuScrollItemCell.swift */; };
+		05132D0622A4C01F00A5D9F3 /* ZHMenuScrollItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05132D0422A4C01F00A5D9F3 /* ZHMenuScrollItemCell.xib */; };
 		D59B980022A3CF800053FD57 /* WWTestListVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B97FF22A3CF800053FD57 /* WWTestListVc.swift */; };
 		D59B980322A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B980222A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift */; };
 		D59B980A22A3D12E0053FD57 /* YYNewPaperConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B980622A3D12E0053FD57 /* YYNewPaperConfig.swift */; };
@@ -168,6 +175,13 @@
 		050FFA7B22A3EB1F00C19A67 /* GAPageControlCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GAPageControlCell.xib; sourceTree = "<group>"; };
 		050FFA8122A3ED1400C19A67 /* slide_img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_img2.jpg; sourceTree = "<group>"; };
 		050FFA8222A3ED1400C19A67 /* slide_img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide_img1.jpg; sourceTree = "<group>"; };
+		05132CEA22A4B64000A5D9F3 /* GANormalizeBaseMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GANormalizeBaseMenuViewController.swift; sourceTree = "<group>"; };
+		05132CF322A4B83F00A5D9F3 /* PXTestMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXTestMenuViewController.swift; sourceTree = "<group>"; };
+		05132CFD22A4BBAD00A5D9F3 /* BaseMenuHeaderTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMenuHeaderTitleView.swift; sourceTree = "<group>"; };
+		05132CFE22A4BBAD00A5D9F3 /* BaseMenuHeaderTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseMenuHeaderTitleView.xib; sourceTree = "<group>"; };
+		05132CFF22A4BBAD00A5D9F3 /* ZHMenuBarMoreLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHMenuBarMoreLineView.swift; sourceTree = "<group>"; };
+		05132D0322A4C01F00A5D9F3 /* ZHMenuScrollItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHMenuScrollItemCell.swift; sourceTree = "<group>"; };
+		05132D0422A4C01F00A5D9F3 /* ZHMenuScrollItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZHMenuScrollItemCell.xib; sourceTree = "<group>"; };
 		D59B97FF22A3CF800053FD57 /* WWTestListVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWTestListVc.swift; sourceTree = "<group>"; };
 		D59B980222A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GANormailizeNewPaperViewController.swift; sourceTree = "<group>"; };
 		D59B980622A3D12E0053FD57 /* YYNewPaperConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYNewPaperConfig.swift; sourceTree = "<group>"; };
@@ -229,6 +243,7 @@
 			children = (
 				050FFA8222A3ED1400C19A67 /* slide_img1.jpg */,
 				050FFA8122A3ED1400C19A67 /* slide_img2.jpg */,
+				05132CF322A4B83F00A5D9F3 /* PXTestMenuViewController.swift */,
 				050FFA6C22A3EA7D00C19A67 /* GANormalizeCircleViewController.swift */,
 				050FFA6D22A3EA7D00C19A67 /* GANormalizeCircleViewController.xib */,
 				05056AC622A3820B006F7A59 /* GANormalizeScanViewController.swift */,
@@ -352,6 +367,18 @@
 				050FFA7322A3EACB00C19A67 /* YYReuseCollectionView.swift */,
 			);
 			path = SlideImageShow;
+			sourceTree = "<group>";
+		};
+		05132CFC22A4BBAD00A5D9F3 /* MoreLineAndOnlyLineView */ = {
+			isa = PBXGroup;
+			children = (
+				05132D0322A4C01F00A5D9F3 /* ZHMenuScrollItemCell.swift */,
+				05132D0422A4C01F00A5D9F3 /* ZHMenuScrollItemCell.xib */,
+				05132CFD22A4BBAD00A5D9F3 /* BaseMenuHeaderTitleView.swift */,
+				05132CFE22A4BBAD00A5D9F3 /* BaseMenuHeaderTitleView.xib */,
+				05132CFF22A4BBAD00A5D9F3 /* ZHMenuBarMoreLineView.swift */,
+			);
+			path = MoreLineAndOnlyLineView;
 			sourceTree = "<group>";
 		};
 		D59B97FE22A3CF670053FD57 /* WW */ = {
@@ -488,6 +515,7 @@
 		DC4D90E2224282880068AD05 /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
+				05132CFC22A4BBAD00A5D9F3 /* MoreLineAndOnlyLineView */,
 				050FFA7022A3EACB00C19A67 /* SlideImageShow */,
 				D59B980522A3D12E0053FD57 /* NewPaper */,
 				050FFA1C22A3CA8400C19A67 /* BaseTextView */,
@@ -522,6 +550,7 @@
 		DC4D90EA224282880068AD05 /* BaseVC */ = {
 			isa = PBXGroup;
 			children = (
+				05132CEA22A4B64000A5D9F3 /* GANormalizeBaseMenuViewController.swift */,
 				DC4D90EB224282880068AD05 /* GANormalizeNavigationViewController.swift */,
 				DC4D90EC224282880068AD05 /* GANormalizeBaseViewController.swift */,
 				DC4D90ED224282880068AD05 /* GANormalizeTabBarViewController.swift */,
@@ -609,6 +638,7 @@
 				050FFA6622A3E42D00C19A67 /* SDWViewController.xib in Resources */,
 				050FFA6B22A3E48C00C19A67 /* YYCardIOViewController.xib in Resources */,
 				050FFA8322A3ED1400C19A67 /* slide_img2.jpg in Resources */,
+				05132D0122A4BBAD00A5D9F3 /* BaseMenuHeaderTitleView.xib in Resources */,
 				05056B2222A3B1EE006F7A59 /* GAMessageViewController.xib in Resources */,
 				05056B1A22A3B125006F7A59 /* YYADCellView.xib in Resources */,
 				D59B982822A3D3960053FD57 /* img_001.jpg in Resources */,
@@ -624,6 +654,7 @@
 				050FFA7E22A3EB1F00C19A67 /* GAPageControlCell.xib in Resources */,
 				D59B982622A3D3960053FD57 /* img_003.jpg in Resources */,
 				05056AC922A3820B006F7A59 /* GANormalizeScanViewController.xib in Resources */,
+				05132D0622A4C01F00A5D9F3 /* ZHMenuScrollItemCell.xib in Resources */,
 				DC4D91072243339D0068AD05 /* PXTabbarView.xib in Resources */,
 				05056B0A22A3AE0A006F7A59 /* CodeScan.bundle in Resources */,
 				050FFA2622A3CAF300C19A67 /* GATextViewAndTextFieldViewController.xib in Resources */,
@@ -655,10 +686,13 @@
 				D59B981422A3D1DA0053FD57 /* GATagCollectionViewController.swift in Sources */,
 				DC4D90FF224282880068AD05 /* GANormalizeBaseProtocol.swift in Sources */,
 				D59B980C22A3D12E0053FD57 /* YYNewPaperView.swift in Sources */,
+				05132D0022A4BBAD00A5D9F3 /* BaseMenuHeaderTitleView.swift in Sources */,
 				05056B0E22A3AE0A006F7A59 /* LBXScanView.swift in Sources */,
 				05056B2422A3B2BF006F7A59 /* UIView+Extension.swift in Sources */,
+				05132D0522A4C01F00A5D9F3 /* ZHMenuScrollItemCell.swift in Sources */,
 				DC4D90F3224282880068AD05 /* GANormalizeOther+Extension.swift in Sources */,
 				05056B0C22A3AE0A006F7A59 /* LBXScanLineAnimation.swift in Sources */,
+				05132CF422A4B83F00A5D9F3 /* PXTestMenuViewController.swift in Sources */,
 				050FFA7822A3EAE800C19A67 /* UIColor+Extension.swift in Sources */,
 				05056B2622A3B317006F7A59 /* NSObject+Extension.swift in Sources */,
 				05056B1922A3B125006F7A59 /* YYADCellView.swift in Sources */,
@@ -680,6 +714,7 @@
 				DC4D90FE224282880068AD05 /* GANormalizeBaseTableViewController.swift in Sources */,
 				D59B981822A3D2350053FD57 /* GATagCollectionViewCell.swift in Sources */,
 				050FFA1B22A3C6DE00C19A67 /* GANormalizeIconButton.swift in Sources */,
+				05132CEB22A4B64000A5D9F3 /* GANormalizeBaseMenuViewController.swift in Sources */,
 				050FFA2122A3CA8400C19A67 /* GANormalizeTextField.swift in Sources */,
 				DC4D9103224325B80068AD05 /* PXTabbarViewController.swift in Sources */,
 				05056B2122A3B1EE006F7A59 /* GAMessageViewController.swift in Sources */,
@@ -692,6 +727,7 @@
 				05056B0F22A3AE0A006F7A59 /* LBXScanViewController.swift in Sources */,
 				DC4D90FA224282880068AD05 /* GANormalizeNavigationViewController.swift in Sources */,
 				050FFA7422A3EACB00C19A67 /* YYReuseCollectionCell.swift in Sources */,
+				05132D0222A4BBAD00A5D9F3 /* ZHMenuBarMoreLineView.swift in Sources */,
 				05056B1122A3AE0A006F7A59 /* LBXScanWrapper.swift in Sources */,
 				D59B980322A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift in Sources */,
 				050FFA1522A3C6B000C19A67 /* GAButtonViewController.swift in Sources */,
