@@ -66,6 +66,7 @@
 		05132D0222A4BBAD00A5D9F3 /* ZHMenuBarMoreLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05132CFF22A4BBAD00A5D9F3 /* ZHMenuBarMoreLineView.swift */; };
 		05132D0522A4C01F00A5D9F3 /* ZHMenuScrollItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05132D0322A4C01F00A5D9F3 /* ZHMenuScrollItemCell.swift */; };
 		05132D0622A4C01F00A5D9F3 /* ZHMenuScrollItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05132D0422A4C01F00A5D9F3 /* ZHMenuScrollItemCell.xib */; };
+		922A1307B239E28D49C52A84 /* Pods_ZhengHeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB6EDBCC5AA23898E3275F0 /* Pods_ZhengHeFramework.framework */; };
 		D59B980022A3CF800053FD57 /* WWTestListVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B97FF22A3CF800053FD57 /* WWTestListVc.swift */; };
 		D59B980322A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B980222A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift */; };
 		D59B980A22A3D12E0053FD57 /* YYNewPaperConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B980622A3D12E0053FD57 /* YYNewPaperConfig.swift */; };
@@ -182,6 +183,9 @@
 		05132CFF22A4BBAD00A5D9F3 /* ZHMenuBarMoreLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHMenuBarMoreLineView.swift; sourceTree = "<group>"; };
 		05132D0322A4C01F00A5D9F3 /* ZHMenuScrollItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHMenuScrollItemCell.swift; sourceTree = "<group>"; };
 		05132D0422A4C01F00A5D9F3 /* ZHMenuScrollItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZHMenuScrollItemCell.xib; sourceTree = "<group>"; };
+		0DB6EDBCC5AA23898E3275F0 /* Pods_ZhengHeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhengHeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		908D280517F50F405C690CB5 /* Pods-ZhengHeFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhengHeFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhengHeFramework/Pods-ZhengHeFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		B3CFEEB15F8DEE317EF6462E /* Pods-ZhengHeFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhengHeFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhengHeFramework/Pods-ZhengHeFramework.release.xcconfig"; sourceTree = "<group>"; };
 		D59B97FF22A3CF800053FD57 /* WWTestListVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWTestListVc.swift; sourceTree = "<group>"; };
 		D59B980222A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GANormailizeNewPaperViewController.swift; sourceTree = "<group>"; };
 		D59B980622A3D12E0053FD57 /* YYNewPaperConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYNewPaperConfig.swift; sourceTree = "<group>"; };
@@ -232,6 +236,7 @@
 				050FFA5C22A3E36500C19A67 /* AipBase.framework in Frameworks */,
 				050FFA5D22A3E36500C19A67 /* AipOcrSdk.framework in Frameworks */,
 				050FFA5E22A3E36500C19A67 /* IdcardQuality.framework in Frameworks */,
+				922A1307B239E28D49C52A84 /* Pods_ZhengHeFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +386,15 @@
 			path = MoreLineAndOnlyLineView;
 			sourceTree = "<group>";
 		};
+		304E239F103B1601D1D71161 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				908D280517F50F405C690CB5 /* Pods-ZhengHeFramework.debug.xcconfig */,
+				B3CFEEB15F8DEE317EF6462E /* Pods-ZhengHeFramework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D59B97FE22A3CF670053FD57 /* WW */ = {
 			isa = PBXGroup;
 			children = (
@@ -446,6 +460,8 @@
 				DC4D90A922427E1E0068AD05 /* ZhengHeFramework */,
 				DC4D90A822427E1E0068AD05 /* Products */,
 				050FFA6722A3E44600C19A67 /* Recovered References */,
+				304E239F103B1601D1D71161 /* Pods */,
+				E552BD72BF5FB079A84E3A21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -575,6 +591,14 @@
 			path = PX;
 			sourceTree = "<group>";
 		};
+		E552BD72BF5FB079A84E3A21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DB6EDBCC5AA23898E3275F0 /* Pods_ZhengHeFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -582,10 +606,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC4D90B922427E1F0068AD05 /* Build configuration list for PBXNativeTarget "ZhengHeFramework" */;
 			buildPhases = (
+				D1F5DD3DC00BB47C84C5B306 /* [CP] Check Pods Manifest.lock */,
 				DC4D90A322427E1E0068AD05 /* Sources */,
 				DC4D90A422427E1E0068AD05 /* Frameworks */,
 				DC4D90A522427E1E0068AD05 /* Resources */,
 				050FFA5622A3E30200C19A67 /* Embed Frameworks */,
+				1453D3ABEB1F101867B572EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -664,6 +690,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1453D3ABEB1F101867B572EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZhengHeFramework/Pods-ZhengHeFramework-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhengHeFramework/Pods-ZhengHeFramework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F5DD3DC00BB47C84C5B306 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZhengHeFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DC4D90A322427E1E0068AD05 /* Sources */ = {
@@ -880,6 +953,7 @@
 		};
 		DC4D90BA22427E1F0068AD05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 908D280517F50F405C690CB5 /* Pods-ZhengHeFramework.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -904,6 +978,7 @@
 		};
 		DC4D90BB22427E1F0068AD05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3CFEEB15F8DEE317EF6462E /* Pods-ZhengHeFramework.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
