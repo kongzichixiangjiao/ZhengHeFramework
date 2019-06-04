@@ -49,6 +49,8 @@ class WWTestListVc: GANormalizeBaseTableViewController {
             
         }else if indexPath.row == 2 {
             
+            self.navigationController?.pushViewController(GANormalizeRequestViewController(), animated: true)
+            
         }else if indexPath.row == 3 {
             
             self.navigationController?.pushViewController(GATagCollectionViewController(), animated: true)

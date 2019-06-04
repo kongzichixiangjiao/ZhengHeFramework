@@ -73,6 +73,24 @@
 		D52BC5C922A61D6900FA2D03 /* AipOcrSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 050FFA5A22A3E36400C19A67 /* AipOcrSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D52BC5CA22A61D6900FA2D03 /* IdcardQuality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050FFA5B22A3E36400C19A67 /* IdcardQuality.framework */; };
 		D52BC5CB22A61D6900FA2D03 /* IdcardQuality.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 050FFA5B22A3E36400C19A67 /* IdcardQuality.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D52BC5D022A6252600FA2D03 /* GANormalizeRequestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52BC5CE22A6252600FA2D03 /* GANormalizeRequestViewController.xib */; };
+		D52BC5D122A6252600FA2D03 /* GANormalizeRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52BC5CF22A6252600FA2D03 /* GANormalizeRequestViewController.swift */; };
+		D52BC5DE22A6256F00FA2D03 /* ZHRequest+Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52BC5D322A6256F00FA2D03 /* ZHRequest+Api.swift */; };
+		D52BC5DF22A6256F00FA2D03 /* ZHModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52BC5D422A6256F00FA2D03 /* ZHModel.swift */; };
+		D52BC5E022A6256F00FA2D03 /* PXRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52BC5D522A6256F00FA2D03 /* PXRequest.swift */; };
+		D52BC5E122A6256F00FA2D03 /* ZHRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52BC5D622A6256F00FA2D03 /* ZHRequest+Extension.swift */; };
+		D52BC5E222A6256F00FA2D03 /* ZHRequest+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52BC5D722A6256F00FA2D03 /* ZHRequest+URL.swift */; };
+		D52BC5E322A6256F00FA2D03 /* ZHRequest+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52BC5D822A6256F00FA2D03 /* ZHRequest+Enum.swift */; };
+		D52BC5E422A6256F00FA2D03 /* ZHRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52BC5D922A6256F00FA2D03 /* ZHRequest.swift */; };
+		D52BC5E522A6256F00FA2D03 /* ZHRequest+AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52BC5DA22A6256F00FA2D03 /* ZHRequest+AppDelegate.swift */; };
+		D52BC5E622A6256F00FA2D03 /* ZHConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52BC5DC22A6256F00FA2D03 /* ZHConfig.swift */; };
+		D52BC5E722A6256F00FA2D03 /* ZHRequest+Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52BC5DD22A6256F00FA2D03 /* ZHRequest+Log.swift */; };
+		D55AAE9822A64288009DCD29 /* ZHStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55AAE9222A64288009DCD29 /* ZHStorage.swift */; };
+		D55AAE9922A64288009DCD29 /* ZHStorageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55AAE9322A64288009DCD29 /* ZHStorageModel.swift */; };
+		D55AAE9A22A64288009DCD29 /* GAJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55AAE9422A64288009DCD29 /* GAJSON.swift */; };
+		D55AAE9B22A64288009DCD29 /* GAStorageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55AAE9522A64288009DCD29 /* GAStorageModel.swift */; };
+		D55AAE9C22A64288009DCD29 /* GAStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55AAE9622A64288009DCD29 /* GAStorage.swift */; };
+		D55AAE9D22A64288009DCD29 /* GAPlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55AAE9722A64288009DCD29 /* GAPlistManager.swift */; };
 		D59B980022A3CF800053FD57 /* WWTestListVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B97FF22A3CF800053FD57 /* WWTestListVc.swift */; };
 		D59B980322A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B980222A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift */; };
 		D59B980A22A3D12E0053FD57 /* YYNewPaperConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B980622A3D12E0053FD57 /* YYNewPaperConfig.swift */; };
@@ -195,6 +213,24 @@
 		0DB6EDBCC5AA23898E3275F0 /* Pods_ZhengHeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhengHeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		908D280517F50F405C690CB5 /* Pods-ZhengHeFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhengHeFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhengHeFramework/Pods-ZhengHeFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		B3CFEEB15F8DEE317EF6462E /* Pods-ZhengHeFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhengHeFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhengHeFramework/Pods-ZhengHeFramework.release.xcconfig"; sourceTree = "<group>"; };
+		D52BC5CE22A6252600FA2D03 /* GANormalizeRequestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GANormalizeRequestViewController.xib; sourceTree = "<group>"; };
+		D52BC5CF22A6252600FA2D03 /* GANormalizeRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GANormalizeRequestViewController.swift; sourceTree = "<group>"; };
+		D52BC5D322A6256F00FA2D03 /* ZHRequest+Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZHRequest+Api.swift"; sourceTree = "<group>"; };
+		D52BC5D422A6256F00FA2D03 /* ZHModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHModel.swift; sourceTree = "<group>"; };
+		D52BC5D522A6256F00FA2D03 /* PXRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXRequest.swift; sourceTree = "<group>"; };
+		D52BC5D622A6256F00FA2D03 /* ZHRequest+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZHRequest+Extension.swift"; sourceTree = "<group>"; };
+		D52BC5D722A6256F00FA2D03 /* ZHRequest+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZHRequest+URL.swift"; sourceTree = "<group>"; };
+		D52BC5D822A6256F00FA2D03 /* ZHRequest+Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZHRequest+Enum.swift"; sourceTree = "<group>"; };
+		D52BC5D922A6256F00FA2D03 /* ZHRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHRequest.swift; sourceTree = "<group>"; };
+		D52BC5DA22A6256F00FA2D03 /* ZHRequest+AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZHRequest+AppDelegate.swift"; sourceTree = "<group>"; };
+		D52BC5DC22A6256F00FA2D03 /* ZHConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHConfig.swift; sourceTree = "<group>"; };
+		D52BC5DD22A6256F00FA2D03 /* ZHRequest+Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZHRequest+Log.swift"; sourceTree = "<group>"; };
+		D55AAE9222A64288009DCD29 /* ZHStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHStorage.swift; sourceTree = "<group>"; };
+		D55AAE9322A64288009DCD29 /* ZHStorageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHStorageModel.swift; sourceTree = "<group>"; };
+		D55AAE9422A64288009DCD29 /* GAJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAJSON.swift; sourceTree = "<group>"; };
+		D55AAE9522A64288009DCD29 /* GAStorageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAStorageModel.swift; sourceTree = "<group>"; };
+		D55AAE9622A64288009DCD29 /* GAStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAStorage.swift; sourceTree = "<group>"; };
+		D55AAE9722A64288009DCD29 /* GAPlistManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAPlistManager.swift; sourceTree = "<group>"; };
 		D59B97FF22A3CF800053FD57 /* WWTestListVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWTestListVc.swift; sourceTree = "<group>"; };
 		D59B980222A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GANormailizeNewPaperViewController.swift; sourceTree = "<group>"; };
 		D59B980622A3D12E0053FD57 /* YYNewPaperConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYNewPaperConfig.swift; sourceTree = "<group>"; };
@@ -410,9 +446,65 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D52BC5CD22A6252600FA2D03 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				D52BC5CE22A6252600FA2D03 /* GANormalizeRequestViewController.xib */,
+				D52BC5CF22A6252600FA2D03 /* GANormalizeRequestViewController.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		D52BC5D222A6256F00FA2D03 /* ZHRequest */ = {
+			isa = PBXGroup;
+			children = (
+				D52BC5D322A6256F00FA2D03 /* ZHRequest+Api.swift */,
+				D52BC5D422A6256F00FA2D03 /* ZHModel.swift */,
+				D52BC5D522A6256F00FA2D03 /* PXRequest.swift */,
+				D52BC5D622A6256F00FA2D03 /* ZHRequest+Extension.swift */,
+				D52BC5D722A6256F00FA2D03 /* ZHRequest+URL.swift */,
+				D52BC5D822A6256F00FA2D03 /* ZHRequest+Enum.swift */,
+				D52BC5D922A6256F00FA2D03 /* ZHRequest.swift */,
+				D52BC5DA22A6256F00FA2D03 /* ZHRequest+AppDelegate.swift */,
+				D52BC5DB22A6256F00FA2D03 /* RequestConfig */,
+				D52BC5DD22A6256F00FA2D03 /* ZHRequest+Log.swift */,
+			);
+			path = ZHRequest;
+			sourceTree = "<group>";
+		};
+		D52BC5DB22A6256F00FA2D03 /* RequestConfig */ = {
+			isa = PBXGroup;
+			children = (
+				D52BC5DC22A6256F00FA2D03 /* ZHConfig.swift */,
+			);
+			path = RequestConfig;
+			sourceTree = "<group>";
+		};
+		D55AAE9022A64288009DCD29 /* GAStorage */ = {
+			isa = PBXGroup;
+			children = (
+				D55AAE9122A64288009DCD29 /* ZHStorage */,
+				D55AAE9422A64288009DCD29 /* GAJSON.swift */,
+				D55AAE9522A64288009DCD29 /* GAStorageModel.swift */,
+				D55AAE9622A64288009DCD29 /* GAStorage.swift */,
+				D55AAE9722A64288009DCD29 /* GAPlistManager.swift */,
+			);
+			path = GAStorage;
+			sourceTree = "<group>";
+		};
+		D55AAE9122A64288009DCD29 /* ZHStorage */ = {
+			isa = PBXGroup;
+			children = (
+				D55AAE9222A64288009DCD29 /* ZHStorage.swift */,
+				D55AAE9322A64288009DCD29 /* ZHStorageModel.swift */,
+			);
+			path = ZHStorage;
+			sourceTree = "<group>";
+		};
 		D59B97FE22A3CF670053FD57 /* WW */ = {
 			isa = PBXGroup;
 			children = (
+				D52BC5CD22A6252600FA2D03 /* Request */,
 				D59B981222A3D1DA0053FD57 /* SearchRecordList */,
 				D59B980122A3D0BF0053FD57 /* NewPaper */,
 				D59B97FF22A3CF800053FD57 /* WWTestListVc.swift */,
@@ -434,6 +526,8 @@
 		D59B980422A3D1090053FD57 /* BaseFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				D55AAE9022A64288009DCD29 /* GAStorage */,
+				D52BC5D222A6256F00FA2D03 /* ZHRequest */,
 				D59B981922A3D25B0053FD57 /* GATagFlowLayout */,
 				D59B980E22A3D15B0053FD57 /* YYCountDown.swift */,
 			);
@@ -676,6 +770,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05F1D6C722A6452E00709B3E /* GAWaterImageViewController.xib in Resources */,
+				D52BC5D022A6252600FA2D03 /* GANormalizeRequestViewController.xib in Resources */,
 				DC4D90F7224282880068AD05 /* GANormalizeTabbarView.xib in Resources */,
 				050FFA6622A3E42D00C19A67 /* SDWViewController.xib in Resources */,
 				050FFA6B22A3E48C00C19A67 /* YYCardIOViewController.xib in Resources */,
@@ -718,12 +813,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZhengHeFramework/Pods-ZhengHeFramework-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -761,12 +858,14 @@
 			files = (
 				050FFA6E22A3EA7D00C19A67 /* GANormalizeCircleViewController.swift in Sources */,
 				DC4D90F1224282880068AD05 /* GANormalizeOther+Class.swift in Sources */,
+				D52BC5E322A6256F00FA2D03 /* ZHRequest+Enum.swift in Sources */,
 				D59B980A22A3D12E0053FD57 /* YYNewPaperConfig.swift in Sources */,
 				05056B1B22A3B125006F7A59 /* YYADViewModel.swift in Sources */,
 				050FFA6522A3E42D00C19A67 /* SDWViewController.swift in Sources */,
 				DC4D90F9224282880068AD05 /* YYXibTabBarItem.swift in Sources */,
 				050FFA7622A3EACB00C19A67 /* YYReuseCollectionView.swift in Sources */,
 				DC4D90F2224282880068AD05 /* GANormalizeOther+Enum.swift in Sources */,
+				D55AAE9922A64288009DCD29 /* ZHStorageModel.swift in Sources */,
 				D59B981B22A3D25B0053FD57 /* GATagFlowLayout.swift in Sources */,
 				DC4D9105224333810068AD05 /* PXTabbarView.swift in Sources */,
 				D59B980F22A3D15C0053FD57 /* YYCountDown.swift in Sources */,
@@ -775,18 +874,24 @@
 				D59B981422A3D1DA0053FD57 /* GATagCollectionViewController.swift in Sources */,
 				DC4D90FF224282880068AD05 /* GANormalizeBaseProtocol.swift in Sources */,
 				05F1D6C322A6434000709B3E /* UIImage+Extension.swift in Sources */,
+				D52BC5E022A6256F00FA2D03 /* PXRequest.swift in Sources */,
+				D52BC5E222A6256F00FA2D03 /* ZHRequest+URL.swift in Sources */,
 				D59B980C22A3D12E0053FD57 /* YYNewPaperView.swift in Sources */,
 				05132D0022A4BBAD00A5D9F3 /* BaseMenuHeaderTitleView.swift in Sources */,
 				05056B0E22A3AE0A006F7A59 /* LBXScanView.swift in Sources */,
 				05056B2422A3B2BF006F7A59 /* UIView+Extension.swift in Sources */,
+				D52BC5DF22A6256F00FA2D03 /* ZHModel.swift in Sources */,
 				05132D0522A4C01F00A5D9F3 /* ZHMenuScrollItemCell.swift in Sources */,
 				DC4D90F3224282880068AD05 /* GANormalizeOther+Extension.swift in Sources */,
+				D52BC5E622A6256F00FA2D03 /* ZHConfig.swift in Sources */,
 				05056B0C22A3AE0A006F7A59 /* LBXScanLineAnimation.swift in Sources */,
+				D52BC5E522A6256F00FA2D03 /* ZHRequest+AppDelegate.swift in Sources */,
 				05132CF422A4B83F00A5D9F3 /* PXTestMenuViewController.swift in Sources */,
 				050FFA7822A3EAE800C19A67 /* UIColor+Extension.swift in Sources */,
 				05056B2622A3B317006F7A59 /* NSObject+Extension.swift in Sources */,
 				05056B1922A3B125006F7A59 /* YYADCellView.swift in Sources */,
 				D59B981122A3D1740053FD57 /* UICollectionView+Extension.swift in Sources */,
+				D52BC5DE22A6256F00FA2D03 /* ZHRequest+Api.swift in Sources */,
 				05056B0B22A3AE0A006F7A59 /* LBXPermissions.swift in Sources */,
 				05056AFF22A3AB49006F7A59 /* UITableViewCell+Extension.swift in Sources */,
 				050FFA7C22A3EB1F00C19A67 /* GAPageControlCell.swift in Sources */,
@@ -798,16 +903,23 @@
 				05056B1D22A3B125006F7A59 /* YYScrollADView.swift in Sources */,
 				05056AFE22A3AB49006F7A59 /* UITableView+Extension.swift in Sources */,
 				05056B1022A3AE0A006F7A59 /* LBXScanViewStyle.swift in Sources */,
+				D52BC5D122A6252600FA2D03 /* GANormalizeRequestViewController.swift in Sources */,
 				DC4D90F8224282880068AD05 /* GANormalizeTabbarView.swift in Sources */,
 				050FFA2522A3CAF300C19A67 /* GATextViewAndTextFieldViewController.swift in Sources */,
 				050FFA6A22A3E48C00C19A67 /* YYCardIOViewController.swift in Sources */,
 				DC4D90FE224282880068AD05 /* GANormalizeBaseTableViewController.swift in Sources */,
 				D59B981822A3D2350053FD57 /* GATagCollectionViewCell.swift in Sources */,
+				D55AAE9822A64288009DCD29 /* ZHStorage.swift in Sources */,
 				050FFA1B22A3C6DE00C19A67 /* GANormalizeIconButton.swift in Sources */,
+				D55AAE9D22A64288009DCD29 /* GAPlistManager.swift in Sources */,
 				05132CEB22A4B64000A5D9F3 /* GANormalizeBaseMenuViewController.swift in Sources */,
 				050FFA2122A3CA8400C19A67 /* GANormalizeTextField.swift in Sources */,
+				D52BC5E422A6256F00FA2D03 /* ZHRequest.swift in Sources */,
+				D55AAE9A22A64288009DCD29 /* GAJSON.swift in Sources */,
 				DC4D9103224325B80068AD05 /* PXTabbarViewController.swift in Sources */,
+				D52BC5E122A6256F00FA2D03 /* ZHRequest+Extension.swift in Sources */,
 				05056B2122A3B1EE006F7A59 /* GAMessageViewController.swift in Sources */,
+				D55AAE9B22A64288009DCD29 /* GAStorageModel.swift in Sources */,
 				DC4D90FC224282880068AD05 /* GANormalizeTabBarViewController.swift in Sources */,
 				05056B1E22A3B125006F7A59 /* YYTableADView.swift in Sources */,
 				DC4D90FB224282880068AD05 /* GANormalizeBaseViewController.swift in Sources */,
@@ -816,6 +928,7 @@
 				050FFA2022A3CA8400C19A67 /* GANormalizeTextEditProtocol.swift in Sources */,
 				05056B0F22A3AE0A006F7A59 /* LBXScanViewController.swift in Sources */,
 				DC4D90FA224282880068AD05 /* GANormalizeNavigationViewController.swift in Sources */,
+				D52BC5E722A6256F00FA2D03 /* ZHRequest+Log.swift in Sources */,
 				050FFA7422A3EACB00C19A67 /* YYReuseCollectionCell.swift in Sources */,
 				05132D0222A4BBAD00A5D9F3 /* ZHMenuBarMoreLineView.swift in Sources */,
 				05056B1122A3AE0A006F7A59 /* LBXScanWrapper.swift in Sources */,
@@ -823,6 +936,7 @@
 				050FFA1522A3C6B000C19A67 /* GAButtonViewController.swift in Sources */,
 				05F1D6C622A6452E00709B3E /* GAWaterImageViewController.swift in Sources */,
 				DC4D90AB22427E1E0068AD05 /* AppDelegate.swift in Sources */,
+				D55AAE9C22A64288009DCD29 /* GAStorage.swift in Sources */,
 				050FFA1A22A3C6DE00C19A67 /* GANormalizeButton.swift in Sources */,
 				05056B0D22A3AE0A006F7A59 /* LBXScanNetAnimation.swift in Sources */,
 				DC4D90FD224282880068AD05 /* GANormalizeBaseCollectionViewController.swift in Sources */,
