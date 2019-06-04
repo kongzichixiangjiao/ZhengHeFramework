@@ -33,7 +33,7 @@ enum ZHRequestAppName: String {
     case px_cfgw = "普信财富顾问"
     case ly_cffw = "朗瀛财富服务"
     case ly_lcs = "朗瀛理财师"
-    case test = "框框"
+    case test = "ZhengHeFramework"
 }
 
 enum ZHReuqestErrorCode: String {
