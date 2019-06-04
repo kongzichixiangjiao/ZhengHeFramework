@@ -11,7 +11,7 @@ import UIKit
 class SDWViewController: GANormalizeBaseTableViewController {
     
     
-    let dataArray = ["按钮","滚动消息动画","身份证银行卡扫描","textView And textField","轮播图","tableviewsView","二维码扫描"]
+    let dataArray = ["按钮","滚动消息动画","身份证银行卡扫描","textView And textField","轮播图","tableviewsView","二维码扫描","水印效果"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -67,6 +67,11 @@ class SDWViewController: GANormalizeBaseTableViewController {
         }  else if indexPath.row == 6 {
             
             self.navigationController?.pushViewController(GANormalizeScanViewController(), animated: true)
+        }else {
+            
+            
+            self.navigationController?.pushViewController(GAWaterImageViewController(), animated: true)
+
         }
         
         

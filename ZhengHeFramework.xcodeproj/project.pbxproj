@@ -63,6 +63,9 @@
 		05132D0222A4BBAD00A5D9F3 /* ZHMenuBarMoreLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05132CFF22A4BBAD00A5D9F3 /* ZHMenuBarMoreLineView.swift */; };
 		05132D0522A4C01F00A5D9F3 /* ZHMenuScrollItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05132D0322A4C01F00A5D9F3 /* ZHMenuScrollItemCell.swift */; };
 		05132D0622A4C01F00A5D9F3 /* ZHMenuScrollItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05132D0422A4C01F00A5D9F3 /* ZHMenuScrollItemCell.xib */; };
+		05F1D6C322A6434000709B3E /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1D6C222A6434000709B3E /* UIImage+Extension.swift */; };
+		05F1D6C622A6452E00709B3E /* GAWaterImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1D6C422A6452E00709B3E /* GAWaterImageViewController.swift */; };
+		05F1D6C722A6452E00709B3E /* GAWaterImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05F1D6C522A6452E00709B3E /* GAWaterImageViewController.xib */; };
 		922A1307B239E28D49C52A84 /* Pods_ZhengHeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB6EDBCC5AA23898E3275F0 /* Pods_ZhengHeFramework.framework */; };
 		D52BC5C622A61D6900FA2D03 /* AipBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050FFA5922A3E36400C19A67 /* AipBase.framework */; };
 		D52BC5C722A61D6900FA2D03 /* AipBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 050FFA5922A3E36400C19A67 /* AipBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -186,6 +189,9 @@
 		05132CFF22A4BBAD00A5D9F3 /* ZHMenuBarMoreLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHMenuBarMoreLineView.swift; sourceTree = "<group>"; };
 		05132D0322A4C01F00A5D9F3 /* ZHMenuScrollItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHMenuScrollItemCell.swift; sourceTree = "<group>"; };
 		05132D0422A4C01F00A5D9F3 /* ZHMenuScrollItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZHMenuScrollItemCell.xib; sourceTree = "<group>"; };
+		05F1D6C222A6434000709B3E /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		05F1D6C422A6452E00709B3E /* GAWaterImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAWaterImageViewController.swift; sourceTree = "<group>"; };
+		05F1D6C522A6452E00709B3E /* GAWaterImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GAWaterImageViewController.xib; sourceTree = "<group>"; };
 		0DB6EDBCC5AA23898E3275F0 /* Pods_ZhengHeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhengHeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		908D280517F50F405C690CB5 /* Pods-ZhengHeFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhengHeFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhengHeFramework/Pods-ZhengHeFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		B3CFEEB15F8DEE317EF6462E /* Pods-ZhengHeFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhengHeFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhengHeFramework/Pods-ZhengHeFramework.release.xcconfig"; sourceTree = "<group>"; };
@@ -267,6 +273,8 @@
 				050FFA2422A3CAF300C19A67 /* GATextViewAndTextFieldViewController.xib */,
 				050FFA6822A3E48C00C19A67 /* YYCardIOViewController.swift */,
 				050FFA6922A3E48C00C19A67 /* YYCardIOViewController.xib */,
+				05F1D6C422A6452E00709B3E /* GAWaterImageViewController.swift */,
+				05F1D6C522A6452E00709B3E /* GAWaterImageViewController.xib */,
 			);
 			path = sdwVCS;
 			sourceTree = "<group>";
@@ -280,6 +288,7 @@
 				05056AFD22A3AB49006F7A59 /* UITableViewCell+Extension.swift */,
 				05056B2322A3B2BF006F7A59 /* UIView+Extension.swift */,
 				05056B2522A3B316006F7A59 /* NSObject+Extension.swift */,
+				05F1D6C222A6434000709B3E /* UIImage+Extension.swift */,
 			);
 			path = BaseExtension;
 			sourceTree = "<group>";
@@ -666,6 +675,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05F1D6C722A6452E00709B3E /* GAWaterImageViewController.xib in Resources */,
 				DC4D90F7224282880068AD05 /* GANormalizeTabbarView.xib in Resources */,
 				050FFA6622A3E42D00C19A67 /* SDWViewController.xib in Resources */,
 				050FFA6B22A3E48C00C19A67 /* YYCardIOViewController.xib in Resources */,
@@ -764,6 +774,7 @@
 				050FFA7D22A3EB1F00C19A67 /* GAPageControl.swift in Sources */,
 				D59B981422A3D1DA0053FD57 /* GATagCollectionViewController.swift in Sources */,
 				DC4D90FF224282880068AD05 /* GANormalizeBaseProtocol.swift in Sources */,
+				05F1D6C322A6434000709B3E /* UIImage+Extension.swift in Sources */,
 				D59B980C22A3D12E0053FD57 /* YYNewPaperView.swift in Sources */,
 				05132D0022A4BBAD00A5D9F3 /* BaseMenuHeaderTitleView.swift in Sources */,
 				05056B0E22A3AE0A006F7A59 /* LBXScanView.swift in Sources */,
@@ -810,6 +821,7 @@
 				05056B1122A3AE0A006F7A59 /* LBXScanWrapper.swift in Sources */,
 				D59B980322A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift in Sources */,
 				050FFA1522A3C6B000C19A67 /* GAButtonViewController.swift in Sources */,
+				05F1D6C622A6452E00709B3E /* GAWaterImageViewController.swift in Sources */,
 				DC4D90AB22427E1E0068AD05 /* AppDelegate.swift in Sources */,
 				050FFA1A22A3C6DE00C19A67 /* GANormalizeButton.swift in Sources */,
 				05056B0D22A3AE0A006F7A59 /* LBXScanNetAnimation.swift in Sources */,
