@@ -69,8 +69,7 @@
 		058ED4E422A8E6D000F86F4B /* waterImgBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 058ED4DB22A8E6D000F86F4B /* waterImgBg.png */; };
 		058ED4E522A8E6D000F86F4B /* ZHBaseBridgeWebviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058ED4DC22A8E6D000F86F4B /* ZHBaseBridgeWebviewController.swift */; };
 		058ED4E622A8E6D000F86F4B /* ZHBaseDsbridgeUtilsTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058ED4DD22A8E6D000F86F4B /* ZHBaseDsbridgeUtilsTools.swift */; };
-		058ED4E722A8E6D000F86F4B /* ZHBottomWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058ED4DE22A8E6D000F86F4B /* ZHBottomWebViewController.swift */; };
-		058ED4E822A8E6D000F86F4B /* ZHTestUtilTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058ED4DF22A8E6D000F86F4B /* ZHTestUtilTools.swift */; };
+		058ED4EB22A8FA7100F86F4B /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058ED4EA22A8FA7100F86F4B /* UIBarButtonItem+Extension.swift */; };
 		05F1D6C322A6434000709B3E /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1D6C222A6434000709B3E /* UIImage+Extension.swift */; };
 		05F1D6C622A6452E00709B3E /* GAWaterImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1D6C422A6452E00709B3E /* GAWaterImageViewController.swift */; };
 		05F1D6C722A6452E00709B3E /* GAWaterImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05F1D6C522A6452E00709B3E /* GAWaterImageViewController.xib */; };
@@ -221,8 +220,7 @@
 		058ED4DB22A8E6D000F86F4B /* waterImgBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waterImgBg.png; sourceTree = "<group>"; };
 		058ED4DC22A8E6D000F86F4B /* ZHBaseBridgeWebviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHBaseBridgeWebviewController.swift; sourceTree = "<group>"; };
 		058ED4DD22A8E6D000F86F4B /* ZHBaseDsbridgeUtilsTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHBaseDsbridgeUtilsTools.swift; sourceTree = "<group>"; };
-		058ED4DE22A8E6D000F86F4B /* ZHBottomWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHBottomWebViewController.swift; sourceTree = "<group>"; };
-		058ED4DF22A8E6D000F86F4B /* ZHTestUtilTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHTestUtilTools.swift; sourceTree = "<group>"; };
+		058ED4EA22A8FA7100F86F4B /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 		05F1D6C222A6434000709B3E /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		05F1D6C422A6452E00709B3E /* GAWaterImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAWaterImageViewController.swift; sourceTree = "<group>"; };
 		05F1D6C522A6452E00709B3E /* GAWaterImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GAWaterImageViewController.xib; sourceTree = "<group>"; };
@@ -335,6 +333,7 @@
 		05056AFB22A3AB3C006F7A59 /* BaseExtension */ = {
 			isa = PBXGroup;
 			children = (
+				058ED4EA22A8FA7100F86F4B /* UIBarButtonItem+Extension.swift */,
 				050FFA7722A3EAE800C19A67 /* UIColor+Extension.swift */,
 				D59B981022A3D1740053FD57 /* UICollectionView+Extension.swift */,
 				05056AFC22A3AB49006F7A59 /* UITableView+Extension.swift */,
@@ -462,8 +461,6 @@
 				058ED4DB22A8E6D000F86F4B /* waterImgBg.png */,
 				058ED4DC22A8E6D000F86F4B /* ZHBaseBridgeWebviewController.swift */,
 				058ED4DD22A8E6D000F86F4B /* ZHBaseDsbridgeUtilsTools.swift */,
-				058ED4DE22A8E6D000F86F4B /* ZHBottomWebViewController.swift */,
-				058ED4DF22A8E6D000F86F4B /* ZHTestUtilTools.swift */,
 			);
 			path = DSBridgeWebView;
 			sourceTree = "<group>";
@@ -909,8 +906,8 @@
 				D59B980F22A3D15C0053FD57 /* YYCountDown.swift in Sources */,
 				DC4D90F4224282880068AD05 /* GANormalizeOther.swift in Sources */,
 				050FFA7D22A3EB1F00C19A67 /* GAPageControl.swift in Sources */,
+				058ED4EB22A8FA7100F86F4B /* UIBarButtonItem+Extension.swift in Sources */,
 				D59B981422A3D1DA0053FD57 /* GATagCollectionViewController.swift in Sources */,
-				058ED4E822A8E6D000F86F4B /* ZHTestUtilTools.swift in Sources */,
 				DC4D90FF224282880068AD05 /* GANormalizeBaseProtocol.swift in Sources */,
 				05F1D6C322A6434000709B3E /* UIImage+Extension.swift in Sources */,
 				D52BC5E022A6256F00FA2D03 /* PXRequest.swift in Sources */,
@@ -970,7 +967,6 @@
 				DC4D90FA224282880068AD05 /* GANormalizeNavigationViewController.swift in Sources */,
 				D52BC5E722A6256F00FA2D03 /* ZHRequest+Log.swift in Sources */,
 				050FFA7422A3EACB00C19A67 /* YYReuseCollectionCell.swift in Sources */,
-				058ED4E722A8E6D000F86F4B /* ZHBottomWebViewController.swift in Sources */,
 				05132D0222A4BBAD00A5D9F3 /* ZHMenuBarMoreLineView.swift in Sources */,
 				05056B1122A3AE0A006F7A59 /* LBXScanWrapper.swift in Sources */,
 				D59B980322A3D0BF0053FD57 /* GANormailizeNewPaperViewController.swift in Sources */,
