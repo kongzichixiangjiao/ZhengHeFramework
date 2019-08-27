@@ -121,6 +121,7 @@
 		D59B982622A3D3960053FD57 /* img_003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D59B982322A3D3960053FD57 /* img_003.jpg */; };
 		D59B982722A3D3960053FD57 /* img_002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D59B982422A3D3960053FD57 /* img_002.jpg */; };
 		D59B982822A3D3960053FD57 /* img_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D59B982522A3D3960053FD57 /* img_001.jpg */; };
+		D5A63D3D23151FF300C2CA6D /* 注意点和需要优化的地方.md in Resources */ = {isa = PBXBuildFile; fileRef = D5A63D3C23151FF300C2CA6D /* 注意点和需要优化的地方.md */; };
 		DC4D90AB22427E1E0068AD05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4D90AA22427E1E0068AD05 /* AppDelegate.swift */; };
 		DC4D90AD22427E1E0068AD05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4D90AC22427E1E0068AD05 /* ViewController.swift */; };
 		DC4D90B022427E1E0068AD05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4D90AE22427E1E0068AD05 /* Main.storyboard */; };
@@ -279,6 +280,7 @@
 		D59B982322A3D3960053FD57 /* img_003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_003.jpg; sourceTree = "<group>"; };
 		D59B982422A3D3960053FD57 /* img_002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_002.jpg; sourceTree = "<group>"; };
 		D59B982522A3D3960053FD57 /* img_001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_001.jpg; sourceTree = "<group>"; };
+		D5A63D3C23151FF300C2CA6D /* 注意点和需要优化的地方.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "注意点和需要优化的地方.md"; sourceTree = "<group>"; };
 		DC4D90A722427E1E0068AD05 /* ZhengHeFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhengHeFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4D90AA22427E1E0068AD05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC4D90AC22427E1E0068AD05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -535,6 +537,7 @@
 				D52FBB432313BC7B00F5C4E9 /* A_swift */,
 				D52FBB372313BB5200F5C4E9 /* CTMediator */,
 				D52FBB3A2313BB5200F5C4E9 /* CTMediatorDemoListViewController.swift */,
+				D5A63D3C23151FF300C2CA6D /* 注意点和需要优化的地方.md */,
 			);
 			path = CTMediatorDemo;
 			sourceTree = "<group>";
@@ -906,6 +909,7 @@
 				DC4D91072243339D0068AD05 /* PXTabbarView.xib in Resources */,
 				05056B0A22A3AE0A006F7A59 /* CodeScan.bundle in Resources */,
 				050FFA2622A3CAF300C19A67 /* GATextViewAndTextFieldViewController.xib in Resources */,
+				D5A63D3D23151FF300C2CA6D /* 注意点和需要优化的地方.md in Resources */,
 				DC4D90B022427E1E0068AD05 /* Main.storyboard in Resources */,
 				D59B982722A3D3960053FD57 /* img_002.jpg in Resources */,
 			);
