@@ -15,7 +15,7 @@ class SDWViewController: GANormalizeBaseTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         self.view.backgroundColor = UIColor.red
         self.tableView.yy_register(classString: UITableViewCell.identifier)

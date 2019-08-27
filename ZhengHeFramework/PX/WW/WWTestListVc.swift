@@ -11,14 +11,15 @@ import UIKit
 class WWTestListVc: GANormalizeBaseTableViewController {
     
     
-    let dataArray = ["0、弹窗提醒","1、新特性","2、request","3、最近搜索，标签",]
+    let dataArray = ["0、弹窗提醒","1、新特性","2、request","3、最近搜索，标签","4、CTMediator路由"]
+    var sss : String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Do any additional setup after loading the view.
         self.view.backgroundColor = UIColor.red
         self.tableView.yy_register(classString: UITableViewCell.identifier)
+    
     }
     
     
@@ -42,6 +43,7 @@ class WWTestListVc: GANormalizeBaseTableViewController {
         
         if indexPath.row == 0 {
             
+            self.navigationController?.pushViewController(GANormalizeAlertsViewController(), animated: true)
             
         }else if indexPath.row == 1{
             
@@ -54,9 +56,11 @@ class WWTestListVc: GANormalizeBaseTableViewController {
         }else if indexPath.row == 3 {
             
             self.navigationController?.pushViewController(GATagCollectionViewController(), animated: true)
+            
+        }else if indexPath.row == 4 {
+            
+            self.navigationController?.pushViewController(CTMediatorDemoListViewController(), animated: true)
         }
-        
-        
         
     }
 }

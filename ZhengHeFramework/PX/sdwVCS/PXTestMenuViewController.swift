@@ -17,7 +17,7 @@ class PXTestMenuViewController: GANormalizeBaseMenuViewController,BaseMenuHeader
     self.subViewControllers = [UIViewController(),UIViewController(),UIViewController(),UIViewController(),UIViewController(),UIViewController()];
         
     }
-    //活动效果
+    //单排效果
     lazy var scrollHeaderView :BaseMenuHeaderTitleView = { [weak self] in
         
         let scrollviewVC = BaseMenuHeaderTitleView.init(frame: CGRect.init(x: 0, y: UIScreen.main.bounds.height == 812 ? 88 : 64, width: UIScreen.main.bounds.width, height: 150), titleArray: self?.titleArray ?? [])

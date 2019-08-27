@@ -85,6 +85,14 @@
 		D52BC5E522A6256F00FA2D03 /* ZHRequest+AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52BC5DA22A6256F00FA2D03 /* ZHRequest+AppDelegate.swift */; };
 		D52BC5E622A6256F00FA2D03 /* ZHConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52BC5DC22A6256F00FA2D03 /* ZHConfig.swift */; };
 		D52BC5E722A6256F00FA2D03 /* ZHRequest+Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52BC5DD22A6256F00FA2D03 /* ZHRequest+Log.swift */; };
+		D52FBB3B2313BB5200F5C4E9 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = D52FBB382313BB5200F5C4E9 /* CTMediator.m */; };
+		D52FBB3C2313BB5200F5C4E9 /* CTMediatorDemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52FBB3A2313BB5200F5C4E9 /* CTMediatorDemoListViewController.swift */; };
+		D52FBB512313BC7B00F5C4E9 /* Target_A.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52FBB452313BC7B00F5C4E9 /* Target_A.swift */; };
+		D52FBB532313BC7B00F5C4E9 /* A_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52FBB4A2313BC7B00F5C4E9 /* A_Extension.swift */; };
+		D52FBB562313BD6D00F5C4E9 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52FBB552313BD6D00F5C4E9 /* AViewController.swift */; };
+		D52FBB632313CB6500F5C4E9 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D52FBB622313CB6500F5C4E9 /* BViewController.m */; };
+		D534659B22A8C377006B0937 /* GANormalizeAlertsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D534659922A8C377006B0937 /* GANormalizeAlertsViewController.xib */; };
+		D534659C22A8C377006B0937 /* GANormalizeAlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D534659A22A8C377006B0937 /* GANormalizeAlertsViewController.swift */; };
 		D55AAE9822A64288009DCD29 /* ZHStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55AAE9222A64288009DCD29 /* ZHStorage.swift */; };
 		D55AAE9922A64288009DCD29 /* ZHStorageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55AAE9322A64288009DCD29 /* ZHStorageModel.swift */; };
 		D55AAE9A22A64288009DCD29 /* GAJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55AAE9422A64288009DCD29 /* GAJSON.swift */; };
@@ -225,6 +233,17 @@
 		D52BC5DA22A6256F00FA2D03 /* ZHRequest+AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZHRequest+AppDelegate.swift"; sourceTree = "<group>"; };
 		D52BC5DC22A6256F00FA2D03 /* ZHConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHConfig.swift; sourceTree = "<group>"; };
 		D52BC5DD22A6256F00FA2D03 /* ZHRequest+Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZHRequest+Log.swift"; sourceTree = "<group>"; };
+		D52FBB382313BB5200F5C4E9 /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
+		D52FBB392313BB5200F5C4E9 /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
+		D52FBB3A2313BB5200F5C4E9 /* CTMediatorDemoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTMediatorDemoListViewController.swift; sourceTree = "<group>"; };
+		D52FBB452313BC7B00F5C4E9 /* Target_A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target_A.swift; sourceTree = "<group>"; };
+		D52FBB4A2313BC7B00F5C4E9 /* A_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A_Extension.swift; sourceTree = "<group>"; };
+		D52FBB552313BD6D00F5C4E9 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		D52FBB572313BEF000F5C4E9 /* Project-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Project-Bridge.h"; sourceTree = "<group>"; };
+		D52FBB612313CB6500F5C4E9 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		D52FBB622313CB6500F5C4E9 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		D534659922A8C377006B0937 /* GANormalizeAlertsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GANormalizeAlertsViewController.xib; sourceTree = "<group>"; };
+		D534659A22A8C377006B0937 /* GANormalizeAlertsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GANormalizeAlertsViewController.swift; sourceTree = "<group>"; };
 		D55AAE9222A64288009DCD29 /* ZHStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHStorage.swift; sourceTree = "<group>"; };
 		D55AAE9322A64288009DCD29 /* ZHStorageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHStorageModel.swift; sourceTree = "<group>"; };
 		D55AAE9422A64288009DCD29 /* GAJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAJSON.swift; sourceTree = "<group>"; };
@@ -480,6 +499,62 @@
 			path = RequestConfig;
 			sourceTree = "<group>";
 		};
+		D52FBB362313BB5200F5C4E9 /* CTMediatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D52FBB602313CB6500F5C4E9 /* OCClasses */,
+				D52FBB492313BC7B00F5C4E9 /* A_Extension */,
+				D52FBB432313BC7B00F5C4E9 /* A_swift */,
+				D52FBB372313BB5200F5C4E9 /* CTMediator */,
+				D52FBB3A2313BB5200F5C4E9 /* CTMediatorDemoListViewController.swift */,
+			);
+			path = CTMediatorDemo;
+			sourceTree = "<group>";
+		};
+		D52FBB372313BB5200F5C4E9 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				D52FBB392313BB5200F5C4E9 /* CTMediator.h */,
+				D52FBB382313BB5200F5C4E9 /* CTMediator.m */,
+			);
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		D52FBB432313BC7B00F5C4E9 /* A_swift */ = {
+			isa = PBXGroup;
+			children = (
+				D52FBB452313BC7B00F5C4E9 /* Target_A.swift */,
+				D52FBB552313BD6D00F5C4E9 /* AViewController.swift */,
+			);
+			path = A_swift;
+			sourceTree = "<group>";
+		};
+		D52FBB492313BC7B00F5C4E9 /* A_Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D52FBB4A2313BC7B00F5C4E9 /* A_Extension.swift */,
+			);
+			path = A_Extension;
+			sourceTree = "<group>";
+		};
+		D52FBB602313CB6500F5C4E9 /* OCClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D52FBB612313CB6500F5C4E9 /* BViewController.h */,
+				D52FBB622313CB6500F5C4E9 /* BViewController.m */,
+			);
+			path = OCClasses;
+			sourceTree = "<group>";
+		};
+		D534659822A8C377006B0937 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				D534659922A8C377006B0937 /* GANormalizeAlertsViewController.xib */,
+				D534659A22A8C377006B0937 /* GANormalizeAlertsViewController.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
 		D55AAE9022A64288009DCD29 /* GAStorage */ = {
 			isa = PBXGroup;
 			children = (
@@ -504,6 +579,8 @@
 		D59B97FE22A3CF670053FD57 /* WW */ = {
 			isa = PBXGroup;
 			children = (
+				D52FBB362313BB5200F5C4E9 /* CTMediatorDemo */,
+				D534659822A8C377006B0937 /* Alert */,
 				D52BC5CD22A6252600FA2D03 /* Request */,
 				D59B981222A3D1DA0053FD57 /* SearchRecordList */,
 				D59B980122A3D0BF0053FD57 /* NewPaper */,
@@ -592,6 +669,7 @@
 				DC4D90AE22427E1E0068AD05 /* Main.storyboard */,
 				DC4D90B122427E1F0068AD05 /* Assets.xcassets */,
 				DC4D90B322427E1F0068AD05 /* LaunchScreen.storyboard */,
+				D52FBB572313BEF000F5C4E9 /* Project-Bridge.h */,
 				DC4D90B622427E1F0068AD05 /* Info.plist */,
 			);
 			path = ZhengHeFramework;
@@ -776,6 +854,7 @@
 				050FFA6B22A3E48C00C19A67 /* YYCardIOViewController.xib in Resources */,
 				050FFA8322A3ED1400C19A67 /* slide_img2.jpg in Resources */,
 				05132D0122A4BBAD00A5D9F3 /* BaseMenuHeaderTitleView.xib in Resources */,
+				D534659B22A8C377006B0937 /* GANormalizeAlertsViewController.xib in Resources */,
 				05056B2222A3B1EE006F7A59 /* GAMessageViewController.xib in Resources */,
 				05056B1A22A3B125006F7A59 /* YYADCellView.xib in Resources */,
 				D59B982822A3D3960053FD57 /* img_001.jpg in Resources */,
@@ -863,6 +942,7 @@
 				05056B1B22A3B125006F7A59 /* YYADViewModel.swift in Sources */,
 				050FFA6522A3E42D00C19A67 /* SDWViewController.swift in Sources */,
 				DC4D90F9224282880068AD05 /* YYXibTabBarItem.swift in Sources */,
+				D52FBB3B2313BB5200F5C4E9 /* CTMediator.m in Sources */,
 				050FFA7622A3EACB00C19A67 /* YYReuseCollectionView.swift in Sources */,
 				DC4D90F2224282880068AD05 /* GANormalizeOther+Enum.swift in Sources */,
 				D55AAE9922A64288009DCD29 /* ZHStorageModel.swift in Sources */,
@@ -876,6 +956,7 @@
 				05F1D6C322A6434000709B3E /* UIImage+Extension.swift in Sources */,
 				D52BC5E022A6256F00FA2D03 /* PXRequest.swift in Sources */,
 				D52BC5E222A6256F00FA2D03 /* ZHRequest+URL.swift in Sources */,
+				D52FBB632313CB6500F5C4E9 /* BViewController.m in Sources */,
 				D59B980C22A3D12E0053FD57 /* YYNewPaperView.swift in Sources */,
 				05132D0022A4BBAD00A5D9F3 /* BaseMenuHeaderTitleView.swift in Sources */,
 				05056B0E22A3AE0A006F7A59 /* LBXScanView.swift in Sources */,
@@ -886,6 +967,7 @@
 				D52BC5E622A6256F00FA2D03 /* ZHConfig.swift in Sources */,
 				05056B0C22A3AE0A006F7A59 /* LBXScanLineAnimation.swift in Sources */,
 				D52BC5E522A6256F00FA2D03 /* ZHRequest+AppDelegate.swift in Sources */,
+				D52FBB3C2313BB5200F5C4E9 /* CTMediatorDemoListViewController.swift in Sources */,
 				05132CF422A4B83F00A5D9F3 /* PXTestMenuViewController.swift in Sources */,
 				050FFA7822A3EAE800C19A67 /* UIColor+Extension.swift in Sources */,
 				05056B2622A3B317006F7A59 /* NSObject+Extension.swift in Sources */,
@@ -908,6 +990,7 @@
 				050FFA2522A3CAF300C19A67 /* GATextViewAndTextFieldViewController.swift in Sources */,
 				050FFA6A22A3E48C00C19A67 /* YYCardIOViewController.swift in Sources */,
 				DC4D90FE224282880068AD05 /* GANormalizeBaseTableViewController.swift in Sources */,
+				D534659C22A8C377006B0937 /* GANormalizeAlertsViewController.swift in Sources */,
 				D59B981822A3D2350053FD57 /* GATagCollectionViewCell.swift in Sources */,
 				D55AAE9822A64288009DCD29 /* ZHStorage.swift in Sources */,
 				050FFA1B22A3C6DE00C19A67 /* GANormalizeIconButton.swift in Sources */,
@@ -917,6 +1000,7 @@
 				D52BC5E422A6256F00FA2D03 /* ZHRequest.swift in Sources */,
 				D55AAE9A22A64288009DCD29 /* GAJSON.swift in Sources */,
 				DC4D9103224325B80068AD05 /* PXTabbarViewController.swift in Sources */,
+				D52FBB562313BD6D00F5C4E9 /* AViewController.swift in Sources */,
 				D52BC5E122A6256F00FA2D03 /* ZHRequest+Extension.swift in Sources */,
 				05056B2122A3B1EE006F7A59 /* GAMessageViewController.swift in Sources */,
 				D55AAE9B22A64288009DCD29 /* GAStorageModel.swift in Sources */,
@@ -927,7 +1011,9 @@
 				05056AC822A3820B006F7A59 /* GANormalizeScanViewController.swift in Sources */,
 				050FFA2022A3CA8400C19A67 /* GANormalizeTextEditProtocol.swift in Sources */,
 				05056B0F22A3AE0A006F7A59 /* LBXScanViewController.swift in Sources */,
+				D52FBB532313BC7B00F5C4E9 /* A_Extension.swift in Sources */,
 				DC4D90FA224282880068AD05 /* GANormalizeNavigationViewController.swift in Sources */,
+				D52FBB512313BC7B00F5C4E9 /* Target_A.swift in Sources */,
 				D52BC5E722A6256F00FA2D03 /* ZHRequest+Log.swift in Sources */,
 				050FFA7422A3EACB00C19A67 /* YYReuseCollectionCell.swift in Sources */,
 				05132D0222A4BBAD00A5D9F3 /* ZHMenuBarMoreLineView.swift in Sources */,
@@ -1102,6 +1188,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = houjianan.ZhengHeFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/ZhengHeFramework/Project-Bridge.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1126,6 +1213,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = houjianan.ZhengHeFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/ZhengHeFramework/Project-Bridge.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
