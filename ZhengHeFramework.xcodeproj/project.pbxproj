@@ -63,6 +63,13 @@
 		05132D0222A4BBAD00A5D9F3 /* ZHMenuBarMoreLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05132CFF22A4BBAD00A5D9F3 /* ZHMenuBarMoreLineView.swift */; };
 		05132D0522A4C01F00A5D9F3 /* ZHMenuScrollItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05132D0322A4C01F00A5D9F3 /* ZHMenuScrollItemCell.swift */; };
 		05132D0622A4C01F00A5D9F3 /* ZHMenuScrollItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05132D0422A4C01F00A5D9F3 /* ZHMenuScrollItemCell.xib */; };
+		058ED4B922A8C5B800F86F4B /* PXTestWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058ED4B822A8C5B800F86F4B /* PXTestWebViewViewController.swift */; };
+		058ED4E222A8E6D000F86F4B /* nav_btn_cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 058ED4D922A8E6D000F86F4B /* nav_btn_cancel@3x.png */; };
+		058ED4E322A8E6D000F86F4B /* NavigationBar_Back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 058ED4DA22A8E6D000F86F4B /* NavigationBar_Back@3x.png */; };
+		058ED4E422A8E6D000F86F4B /* waterImgBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 058ED4DB22A8E6D000F86F4B /* waterImgBg.png */; };
+		058ED4E522A8E6D000F86F4B /* ZHBaseBridgeWebviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058ED4DC22A8E6D000F86F4B /* ZHBaseBridgeWebviewController.swift */; };
+		058ED4E622A8E6D000F86F4B /* ZHBaseDsbridgeUtilsTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058ED4DD22A8E6D000F86F4B /* ZHBaseDsbridgeUtilsTools.swift */; };
+		058ED4EB22A8FA7100F86F4B /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058ED4EA22A8FA7100F86F4B /* UIBarButtonItem+Extension.swift */; };
 		05F1D6C322A6434000709B3E /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1D6C222A6434000709B3E /* UIImage+Extension.swift */; };
 		05F1D6C622A6452E00709B3E /* GAWaterImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1D6C422A6452E00709B3E /* GAWaterImageViewController.swift */; };
 		05F1D6C722A6452E00709B3E /* GAWaterImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05F1D6C522A6452E00709B3E /* GAWaterImageViewController.xib */; };
@@ -215,6 +222,13 @@
 		05132CFF22A4BBAD00A5D9F3 /* ZHMenuBarMoreLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHMenuBarMoreLineView.swift; sourceTree = "<group>"; };
 		05132D0322A4C01F00A5D9F3 /* ZHMenuScrollItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHMenuScrollItemCell.swift; sourceTree = "<group>"; };
 		05132D0422A4C01F00A5D9F3 /* ZHMenuScrollItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZHMenuScrollItemCell.xib; sourceTree = "<group>"; };
+		058ED4B822A8C5B800F86F4B /* PXTestWebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PXTestWebViewViewController.swift; sourceTree = "<group>"; };
+		058ED4D922A8E6D000F86F4B /* nav_btn_cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_btn_cancel@3x.png"; sourceTree = "<group>"; };
+		058ED4DA22A8E6D000F86F4B /* NavigationBar_Back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationBar_Back@3x.png"; sourceTree = "<group>"; };
+		058ED4DB22A8E6D000F86F4B /* waterImgBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waterImgBg.png; sourceTree = "<group>"; };
+		058ED4DC22A8E6D000F86F4B /* ZHBaseBridgeWebviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHBaseBridgeWebviewController.swift; sourceTree = "<group>"; };
+		058ED4DD22A8E6D000F86F4B /* ZHBaseDsbridgeUtilsTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHBaseDsbridgeUtilsTools.swift; sourceTree = "<group>"; };
+		058ED4EA22A8FA7100F86F4B /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 		05F1D6C222A6434000709B3E /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		05F1D6C422A6452E00709B3E /* GAWaterImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAWaterImageViewController.swift; sourceTree = "<group>"; };
 		05F1D6C522A6452E00709B3E /* GAWaterImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GAWaterImageViewController.xib; sourceTree = "<group>"; };
@@ -330,6 +344,7 @@
 				050FFA6922A3E48C00C19A67 /* YYCardIOViewController.xib */,
 				05F1D6C422A6452E00709B3E /* GAWaterImageViewController.swift */,
 				05F1D6C522A6452E00709B3E /* GAWaterImageViewController.xib */,
+				058ED4B822A8C5B800F86F4B /* PXTestWebViewViewController.swift */,
 			);
 			path = sdwVCS;
 			sourceTree = "<group>";
@@ -337,6 +352,7 @@
 		05056AFB22A3AB3C006F7A59 /* BaseExtension */ = {
 			isa = PBXGroup;
 			children = (
+				058ED4EA22A8FA7100F86F4B /* UIBarButtonItem+Extension.swift */,
 				050FFA7722A3EAE800C19A67 /* UIColor+Extension.swift */,
 				D59B981022A3D1740053FD57 /* UICollectionView+Extension.swift */,
 				05056AFC22A3AB49006F7A59 /* UITableView+Extension.swift */,
@@ -454,6 +470,18 @@
 				05132CFF22A4BBAD00A5D9F3 /* ZHMenuBarMoreLineView.swift */,
 			);
 			path = MoreLineAndOnlyLineView;
+			sourceTree = "<group>";
+		};
+		058ED4D722A8E6D000F86F4B /* DSBridgeWebView */ = {
+			isa = PBXGroup;
+			children = (
+				058ED4D922A8E6D000F86F4B /* nav_btn_cancel@3x.png */,
+				058ED4DA22A8E6D000F86F4B /* NavigationBar_Back@3x.png */,
+				058ED4DB22A8E6D000F86F4B /* waterImgBg.png */,
+				058ED4DC22A8E6D000F86F4B /* ZHBaseBridgeWebviewController.swift */,
+				058ED4DD22A8E6D000F86F4B /* ZHBaseDsbridgeUtilsTools.swift */,
+			);
+			path = DSBridgeWebView;
 			sourceTree = "<group>";
 		};
 		304E239F103B1601D1D71161 /* Pods */ = {
@@ -718,6 +746,7 @@
 		DC4D90E2224282880068AD05 /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
+				058ED4D722A8E6D000F86F4B /* DSBridgeWebView */,
 				05132CFC22A4BBAD00A5D9F3 /* MoreLineAndOnlyLineView */,
 				050FFA7022A3EACB00C19A67 /* SlideImageShow */,
 				D59B980522A3D12E0053FD57 /* NewPaper */,
@@ -849,6 +878,7 @@
 			files = (
 				05F1D6C722A6452E00709B3E /* GAWaterImageViewController.xib in Resources */,
 				D52BC5D022A6252600FA2D03 /* GANormalizeRequestViewController.xib in Resources */,
+				058ED4E222A8E6D000F86F4B /* nav_btn_cancel@3x.png in Resources */,
 				DC4D90F7224282880068AD05 /* GANormalizeTabbarView.xib in Resources */,
 				050FFA6622A3E42D00C19A67 /* SDWViewController.xib in Resources */,
 				050FFA6B22A3E48C00C19A67 /* YYCardIOViewController.xib in Resources */,
@@ -866,9 +896,11 @@
 				DC4D90F5224282880068AD05 /* GANormalizeNavigationView.xib in Resources */,
 				D59B981722A3D2350053FD57 /* GATagCollectionViewCell.xib in Resources */,
 				050FFA1622A3C6B000C19A67 /* GAButtonViewController.xib in Resources */,
+				058ED4E422A8E6D000F86F4B /* waterImgBg.png in Resources */,
 				D59B980B22A3D12E0053FD57 /* YYNewPaperCell.xib in Resources */,
 				050FFA7E22A3EB1F00C19A67 /* GAPageControlCell.xib in Resources */,
 				D59B982622A3D3960053FD57 /* img_003.jpg in Resources */,
+				058ED4E322A8E6D000F86F4B /* NavigationBar_Back@3x.png in Resources */,
 				05056AC922A3820B006F7A59 /* GANormalizeScanViewController.xib in Resources */,
 				05132D0622A4C01F00A5D9F3 /* ZHMenuScrollItemCell.xib in Resources */,
 				DC4D91072243339D0068AD05 /* PXTabbarView.xib in Resources */,
@@ -893,6 +925,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZhengHeFramework/Pods-ZhengHeFramework-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/dsBridge/dsBridge.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -900,6 +933,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/dsBridge.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -939,6 +973,7 @@
 				DC4D90F1224282880068AD05 /* GANormalizeOther+Class.swift in Sources */,
 				D52BC5E322A6256F00FA2D03 /* ZHRequest+Enum.swift in Sources */,
 				D59B980A22A3D12E0053FD57 /* YYNewPaperConfig.swift in Sources */,
+				058ED4E622A8E6D000F86F4B /* ZHBaseDsbridgeUtilsTools.swift in Sources */,
 				05056B1B22A3B125006F7A59 /* YYADViewModel.swift in Sources */,
 				050FFA6522A3E42D00C19A67 /* SDWViewController.swift in Sources */,
 				DC4D90F9224282880068AD05 /* YYXibTabBarItem.swift in Sources */,
@@ -951,6 +986,7 @@
 				D59B980F22A3D15C0053FD57 /* YYCountDown.swift in Sources */,
 				DC4D90F4224282880068AD05 /* GANormalizeOther.swift in Sources */,
 				050FFA7D22A3EB1F00C19A67 /* GAPageControl.swift in Sources */,
+				058ED4EB22A8FA7100F86F4B /* UIBarButtonItem+Extension.swift in Sources */,
 				D59B981422A3D1DA0053FD57 /* GATagCollectionViewController.swift in Sources */,
 				DC4D90FF224282880068AD05 /* GANormalizeBaseProtocol.swift in Sources */,
 				05F1D6C322A6434000709B3E /* UIImage+Extension.swift in Sources */,
@@ -965,6 +1001,7 @@
 				05132D0522A4C01F00A5D9F3 /* ZHMenuScrollItemCell.swift in Sources */,
 				DC4D90F3224282880068AD05 /* GANormalizeOther+Extension.swift in Sources */,
 				D52BC5E622A6256F00FA2D03 /* ZHConfig.swift in Sources */,
+				058ED4E522A8E6D000F86F4B /* ZHBaseBridgeWebviewController.swift in Sources */,
 				05056B0C22A3AE0A006F7A59 /* LBXScanLineAnimation.swift in Sources */,
 				D52BC5E522A6256F00FA2D03 /* ZHRequest+AppDelegate.swift in Sources */,
 				D52FBB3C2313BB5200F5C4E9 /* CTMediatorDemoListViewController.swift in Sources */,
@@ -1025,6 +1062,7 @@
 				D55AAE9C22A64288009DCD29 /* GAStorage.swift in Sources */,
 				050FFA1A22A3C6DE00C19A67 /* GANormalizeButton.swift in Sources */,
 				05056B0D22A3AE0A006F7A59 /* LBXScanNetAnimation.swift in Sources */,
+				058ED4B922A8C5B800F86F4B /* PXTestWebViewViewController.swift in Sources */,
 				DC4D90FD224282880068AD05 /* GANormalizeBaseCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
