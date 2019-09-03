@@ -20,5 +20,15 @@ class PXNotifyViewDemo: UIViewController {
         let str = "有一个学习的氛围跟一个交流圈子特别重要!"
         PXNotifyView.showNotify(str)
     }
+    
+    //记得写这句删除
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        PXNotifyView.close()
+    }
+    
+    deinit {
+        print("PXNotifyViewDemo - deinit")
+    }
 
 }

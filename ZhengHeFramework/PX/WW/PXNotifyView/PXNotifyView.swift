@@ -124,21 +124,23 @@ class PXNotifyView: UIView {
         
     }
     
+    class func close() {
+        let viewArr = UIApplication.shared.keyWindow?.subviews
+        for  view in viewArr! {
+            if view.isKind(of: PXNotifyView.classForCoder()){
+                view.removeFromSuperview()
+            }
+        }
+    }
+
 }
 
 //CAAnimationDelegate
 extension PXNotifyView:CAAnimationDelegate {
     func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
-        print("结束")
         let closeAnimation = self.layer.animation(forKey: "closeAnimation")
         if (anim == closeAnimation) {
-            print("结束111")
-            let viewArr = UIApplication.shared.keyWindow?.subviews
-            for  view in viewArr! {
-                if view.isKind(of: PXNotifyView.classForCoder()){
-                    view.removeFromSuperview()
-                }
-            }
+            PXNotifyView.close()
         }
     }
 }
