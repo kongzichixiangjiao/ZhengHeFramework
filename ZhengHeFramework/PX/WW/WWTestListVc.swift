@@ -11,7 +11,7 @@ import UIKit
 class WWTestListVc: GANormalizeBaseTableViewController {
     
     
-    let dataArray = ["0、弹窗提醒","1、新特性","2、request","3、最近搜索，标签","4、CTMediator路由"]
+    let dataArray = ["0、弹窗提醒","1、新特性","2、request","3、最近搜索，标签","4、CTMediator路由", "5、顶部吐司view", "6、下拉列表"]
     var sss : String?
     
     override func viewDidLoad() {
@@ -60,7 +60,16 @@ class WWTestListVc: GANormalizeBaseTableViewController {
         }else if indexPath.row == 4 {
             
             self.navigationController?.pushViewController(CTMediatorDemoListViewController(), animated: true)
+            
+        }else if indexPath.row == 5 {
+            
+            self.navigationController?.pushViewController(PXNotifyViewDemo(), animated: true)
+            
+        }else if indexPath.row == 6 {
+            
+            self.navigationController?.pushViewController(DropDownMenuViewDemo(), animated: true)
         }
+        
         
     }
 }

@@ -1,24 +1,28 @@
 PODS:
   - Alamofire (4.8.0)
+  - CTMediator (25)
   - dsBridge (3.0.6)
   - HandyJSON (4.2.1)
 
 DEPENDENCIES:
   - Alamofire (~> 4.8.0)
+  - CTMediator
   - dsBridge (~> 3.0.6)
   - HandyJSON (~> 4.2.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - CTMediator
     - dsBridge
     - HandyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
   dsBridge: 48b62ee8a411ad601a88d6f6c8cf6cb634b206b7
   HandyJSON: d0c5fc80204f29056d59d3e5c4587fa0b16b60a8
 
-PODFILE CHECKSUM: 636782cdf2bf9a8b07e39becf5a64d68cbec22f3
+PODFILE CHECKSUM: ebe55c4fa927403aa9e501160d3ddca1884ec22d
 
 COCOAPODS: 1.5.3

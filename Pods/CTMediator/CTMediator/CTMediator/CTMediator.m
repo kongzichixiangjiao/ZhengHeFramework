@@ -30,68 +30,6 @@ NSString * const kCTMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParams
     return mediator;
 }
 
-
-/*
- scheme://[target]/path?[params]
- 
- url sample:
- aaa://targetA/path?id=1234
- */
-- (id)performDirectJumpVcWithUrl:(NSURL *)url toOc:(BOOL)isTrue completion:(void (^)(NSDictionary *))completion {
-    
-    NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
-    NSString *urlString = [url query];
-    
-    for (NSString *param in [urlString componentsSeparatedByString:@"&"]) {
-        NSArray *elts = [param componentsSeparatedByString:@"="];
-        if([elts count] < 2) continue;
-        [params setObject:[elts lastObject] forKey:[elts firstObject]];
-    }
-    
-    NSString * swiftModuleName = isTrue ? @"" :  [NSBundle mainBundle].infoDictionary[@"CFBundleExecutable"];
-
-    UIViewController *result = [self performTarget:url.host swiftModuleName:swiftModuleName params:params];
-
-    if (completion) {
-        if (result) {
-            completion(params);
-        }
-    }
-    return result;
-}
-
-
-/*
- scheme://[target]/[action]?[params]
-
- url sample:
- aaa://targetA/actionB?id=1234
- callBack: 回调方法
- */
-- (id)performActionWithUrl:(NSURL *)url toOc:(BOOL)isTrue callBack:(void(^)(NSDictionary *info))callback {
-    
-    NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
-    params[@"callback"] = callback;
-    
-    NSString *urlString = [url query];
-    for (NSString *param in [urlString componentsSeparatedByString:@"&"]) {
-        NSArray *elts = [param componentsSeparatedByString:@"="];
-        if([elts count] < 2) continue;
-        [params setObject:[elts lastObject] forKey:[elts firstObject]];
-    }
-    
-    // 这里这么写主要是出于安全考虑，防止黑客通过远程方式调用本地模块。这里的做法足以应对绝大多数场景，如果要求更加严苛，也可以做更加复杂的安全逻辑。
-    NSString *actionName = [url.path stringByReplacingOccurrencesOfString:@"/" withString:@""];
-    if ([actionName hasPrefix:@"native"]) {
-        return @(NO);
-    }
-    // 这个demo针对URL的路由处理非常简单，就只是取对应的target名字和method名字，但这已经足以应对绝大部份需求。如果需要拓展，可以在这个方法调用之前加入完整的路由逻辑
-    id result = [self performTarget:url.host toOc:isTrue action:actionName params:params shouldCacheTarget:NO];
-
-    return result;
-}
-
-
 /*
  scheme://[target]/[action]?[params]
  
@@ -99,7 +37,7 @@ NSString * const kCTMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParams
  aaa://targetA/actionB?id=1234
  */
 
-- (id)performActionWithUrl:(NSURL *)url toOc:(BOOL)isTrue completion:(void (^)(NSDictionary *))completion
+- (id)performActionWithUrl:(NSURL *)url completion:(void (^)(NSDictionary *))completion
 {
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     NSString *urlString = [url query];
@@ -116,10 +54,10 @@ NSString * const kCTMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParams
     }
     
     // 这个demo针对URL的路由处理非常简单，就只是取对应的target名字和method名字，但这已经足以应对绝大部份需求。如果需要拓展，可以在这个方法调用之前加入完整的路由逻辑
-    id result = [self performTarget:url.host toOc:isTrue action:actionName params:params shouldCacheTarget:NO];
+    id result = [self performTarget:url.host action:actionName params:params shouldCacheTarget:NO];
     if (completion) {
         if (result) {
-            completion(params);
+            completion(@{@"result":result});
         } else {
             completion(nil);
         }
@@ -127,27 +65,10 @@ NSString * const kCTMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParams
     return result;
 }
 
-- (id)performTarget:(NSString *)targetName swiftModuleName:(NSString *)moduleName params:(NSDictionary *)params {
-    
-    NSString *swiftModuleName = moduleName;
-    
-    // generate target
-    NSString *targetClassString = nil;
-    if (swiftModuleName.length > 0) {
-        targetClassString = [NSString stringWithFormat:@"%@.%@", swiftModuleName, targetName];
-    } else {
-        targetClassString = [NSString stringWithFormat:@"%@", targetName];
-    }
-    
-    Class targetClass = NSClassFromString(targetClassString);
-    NSObject *target = [[targetClass alloc] init];
-    return target;
-}
-
-- (id)performTarget:(NSString *)targetName toOc:(BOOL)isTrue action:(NSString *)actionName  params:(NSDictionary *)params shouldCacheTarget:(BOOL)shouldCacheTarget
+- (id)performTarget:(NSString *)targetName action:(NSString *)actionName params:(NSDictionary *)params shouldCacheTarget:(BOOL)shouldCacheTarget
 {
-    NSString * swiftModuleName = isTrue ? @"" :  [NSBundle mainBundle].infoDictionary[@"CFBundleExecutable"];
-
+    NSString *swiftModuleName = params[kCTMediatorParamsKeySwiftTargetModuleName];
+    
     // generate target
     NSString *targetClassString = nil;
     if (swiftModuleName.length > 0) {
